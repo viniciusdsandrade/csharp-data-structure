@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\bin\Debug\net8.0\LinkedListDisordered.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\bin\Debug\net8.0\LinkedListDisordered.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\bin\Debug\net8.0\LinkedListDisordered.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\bin\Debug\net8.0\LinkedListDisordered.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\bin\Debug\net8.0\LinkedListDisordered.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\refint\LinkedListDisordered.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\LinkedListDisordered.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\LinkedList\LinkedListDisordered\obj\Debug\net8.0\ref\LinkedListDisordered.dll
