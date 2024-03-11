@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\bin\Debug\net8.0\lista-01.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\bin\Debug\net8.0\lista-01.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\bin\Debug\net8.0\lista-01.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\bin\Debug\net8.0\lista-01.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\bin\Debug\net8.0\lista-01.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\refint\lista-01.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\lista-01.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\lista-01\lista-01\obj\Debug\net8.0\ref\lista-01.dll

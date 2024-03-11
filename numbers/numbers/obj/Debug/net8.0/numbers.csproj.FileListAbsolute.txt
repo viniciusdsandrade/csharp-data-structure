@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\bin\Debug\net8.0\numbers.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\bin\Debug\net8.0\numbers.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\bin\Debug\net8.0\numbers.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\bin\Debug\net8.0\numbers.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\bin\Debug\net8.0\numbers.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\refint\numbers.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\numbers.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\numbers\numbers\obj\Debug\net8.0\ref\numbers.dll

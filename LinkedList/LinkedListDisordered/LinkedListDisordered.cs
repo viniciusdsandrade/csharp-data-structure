@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System;
+using System.ComponentModel;
 using static System.Console;
 using static System.Object;
+using static LinkedListDisordered.ShallowOrDeepCopy;
 
-namespace LinkedList
+namespace LinkedListDisordered
 {
     public class LinkedListDisordered<X> : ICloneable
     {
@@ -28,22 +30,22 @@ namespace LinkedList
                 this.next = next;
             }
 
-            public X getData()
+            public X GetData()
             {
                 return data;
             }
 
-            public void setData(X data)
+            public void SetData(X data)
             {
                 this.data = data;
             }
 
-            public Node getNext()
+            public Node GetNext()
             {
                 return next;
             }
 
-            public void setNext(Node next)
+            public void SetNext(Node next)
             {
                 this.next = next;
             }
@@ -53,7 +55,6 @@ namespace LinkedList
                 this.data = other.data;
                 this.next = other.next;
             }
-
 
             public object Clone()
             {
@@ -65,6 +66,7 @@ namespace LinkedList
                 }
                 catch (Exception)
                 {
+                    //Exceção nunca vai ser lançada
                 }
 
                 return clone;
@@ -125,13 +127,34 @@ namespace LinkedList
         private Node head;
         private int size;
 
+
+        public Node GetHead()
+        {
+            return head;
+        }
+
+        public void SetHead(Node head)
+        {
+            this.head = head;
+        }
+
+        public int GetSize()
+        {
+            return size;
+        }
+
+        public void SetSize(int size)
+        {
+            this.size = size;
+        }
+
         public LinkedListDisordered()
         {
             this.head = null;
             this.size = 0;
         }
 
-        public void addFirst(X data)
+        public void AddFirst(X? data)
         {
             if (data == null)
             {
@@ -144,7 +167,7 @@ namespace LinkedList
             this.size++;
         }
 
-        public void addLast(X data)
+        public void Add(X data)
         {
             if (data == null)
             {
@@ -171,7 +194,34 @@ namespace LinkedList
             this.size++;
         }
 
-        public void removeFirst()
+        public void AddLast(X? data)
+        {
+            if (data == null)
+            {
+                throw new ArgumentNullException("data cannot be null");
+            }
+
+            Node newNode = new Node(data);
+            Node aux = this.head;
+
+            if (aux == null)
+            {
+                head = newNode;
+            }
+            else
+            {
+                while (aux.next != null)
+                {
+                    aux = aux.next;
+                }
+
+                aux.next = newNode;
+            }
+
+            this.size++;
+        }
+
+        public void RemoveFirst()
         {
             if (head == null)
             {
@@ -185,7 +235,7 @@ namespace LinkedList
             this.size--;
         }
 
-        public void removeLast()
+        public void RemoveLast()
         {
             if (head == null)
             {
@@ -212,29 +262,7 @@ namespace LinkedList
             this.size--;
         }
 
-        public void add(X data)
-        {
-            Node newNode = new Node(data);
-            Node aux = this.head;
-
-            if (aux == null)
-            {
-                head = newNode;
-            }
-            else
-            {
-                while (aux.next != null)
-                {
-                    aux = aux.next;
-                }
-
-                aux.next = newNode;
-            }
-
-            this.size++;
-        }
-
-        public bool contains(X data)
+        public bool Contains(X? data)
         {
             Node aux = this.head;
 
@@ -251,22 +279,18 @@ namespace LinkedList
             return false;
         }
 
-        public int getSize()
+        public bool IsEmpty()
         {
-            return this.size;
-        }
-
-        public bool isEmpty()
-        {
-            return this.size == 0;
+            return size == 0;
         }
 
         public void clear()
         {
             head = null;
+            size = 0;
         }
 
-        public void remove(X data)
+        public void Remove(X? data)
         {
             if (data == null)
             {
@@ -281,7 +305,7 @@ namespace LinkedList
             if (head.data.Equals(data))
             {
                 head = head.next;
-                this.size--;
+                size--;
                 return;
             }
 
@@ -303,7 +327,7 @@ namespace LinkedList
             this.size--;
         }
 
-        public X getFirst()
+        public X GetFirst()
         {
             if (head == null)
             {
@@ -313,7 +337,7 @@ namespace LinkedList
             return head.data;
         }
 
-        public X getLast()
+        public X GetLast()
         {
             if (head == null)
             {
@@ -329,7 +353,7 @@ namespace LinkedList
             return aux.data;
         }
 
-        public X get(int index)
+        public X Get(int index)
         {
             if (index < 0 || index >= this.size)
             {
@@ -345,8 +369,59 @@ namespace LinkedList
             return aux.data;
         }
 
+        public void Reverse()
+        {
+            if (head == null)
+            {
+                throw new InvalidOperationException("The list is empty");
+            }
 
-        public LinkedListDisordered(LinkedListDisordered<X> other)
+            Node previous = null;
+            Node current = head;
+            Node next = null;
+
+            while (current != null)
+            {
+                next = current.next;
+                current.next = previous;
+                previous = current;
+                current = next;
+            }
+
+            head = previous;
+        }
+
+        public void Rotate(int steps)
+        {
+            if (head == null || steps == 0) return;
+
+            steps = steps % size;
+
+            if (steps < 0)
+            {
+                steps = size + steps;
+            }
+
+            Node current = head;
+            for (int i = 0; i < steps - 1; i++)
+            {
+                current = current.next;
+            }
+
+            Node newHead = current.next;
+            current.next = null;
+
+            Node temp = newHead;
+            while (temp.next != null)
+            {
+                temp = temp.next;
+            }
+
+            temp.next = head;
+            head = newHead;
+        }
+
+        public LinkedListDisordered(LinkedListDisordered<X>? other)
         {
             // Implementação da cópia profunda
             if (other.head == null)
@@ -357,13 +432,13 @@ namespace LinkedList
             }
 
             Node currentOther = other.head;
-            Node currentNew = new Node(other.head.data);
+            Node currentNew = new Node((X)VerifyAndCopy(currentOther.data));
             head = currentNew;
 
             while (currentOther.next != null)
             {
                 currentOther = currentOther.next;
-                currentNew.next = new Node(currentOther.data);
+                currentNew.next = new Node((X)VerifyAndCopy(currentOther.data));
                 currentNew = currentNew.next;
             }
 
@@ -377,16 +452,15 @@ namespace LinkedList
             {
                 clone = new LinkedListDisordered<X>(this);
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                WriteLine(e.Message);
             }
 
             return clone;
         }
 
 
-        public override bool Equals(Object obj)
+        public override bool Equals(object? obj)
         {
             if (this == obj)
             {
@@ -413,9 +487,9 @@ namespace LinkedList
             Node aux1 = this.head;
             Node aux2 = other.head;
 
-            while (aux1 != null)
+            while (aux1 != null && aux2 != null)
             {
-                if (!aux1.Equals(aux2))
+                if (!aux1.data.Equals(aux2.data))
                 {
                     return false;
                 }
@@ -424,7 +498,7 @@ namespace LinkedList
                 aux2 = aux2.next;
             }
 
-            return true;
+            return aux1 == null && aux2 == null;
         }
 
 
@@ -450,14 +524,8 @@ namespace LinkedList
 
         public override string ToString()
         {
-            if (this.head == null)
-            {
-                return "[]";
-            }
-
             StringBuilder sb = new StringBuilder();
             sb.Append("[");
-
             Node aux = this.head;
             while (aux != null)
             {

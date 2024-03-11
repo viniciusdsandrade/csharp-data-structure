@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\LinkedList\\LinkedListDisordered\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|c:\\users\\vinic\\onedrive\\\u00E1rea de trabalho\\csharp-data-structure\\linkedlist\\linkedlistdisordered\\linkedlistdisordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|solutionrelative:linkedlistdisordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|c:\\users\\vinic\\onedrive\\\u00E1rea de trabalho\\csharp-data-structure\\linkedlist\\linkedlistdisordered\\tests\\testlinkedlistdisordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|solutionrelative:tests\\testlinkedlistdisordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|c:\\users\\vinic\\onedrive\\\u00E1rea de trabalho\\csharp-data-structure\\linkedlist\\linkedlistdisordered\\tests\\testcopyconstructorandclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|solutionrelative:tests\\testcopyconstructorandclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|c:\\users\\vinic\\onedrive\\\u00E1rea de trabalho\\csharp-data-structure\\linkedlist\\linkedlistdisordered\\linkedlistdisordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE2CB082-6086-4E05-884B-330A5C0B5DE1}|LinkedListDisordered.csproj|solutionrelative:linkedlistdisordered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LinkedListDisordered.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\LinkedList\\LinkedListDisordered\\LinkedListDisordered.cs",
               "RelativeDocumentMoniker": "LinkedListDisordered.cs",
               "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\LinkedList\\LinkedListDisordered\\LinkedListDisordered.cs",
               "RelativeToolTip": "LinkedListDisordered.cs",
-              "ViewState": "AQIAAFoBAAAAAAAAAAAAABQAAAAUAAAA",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAmwKYBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:08:48.881Z",
+              "WhenOpened": "2024-03-11T12:59:59.325Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestCopyConstructorAndClone.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\LinkedList\\LinkedListDisordered\\Tests\\TestCopyConstructorAndClone.cs",
-              "RelativeDocumentMoniker": "Tests\\TestCopyConstructorAndClone.cs",
-              "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\LinkedList\\LinkedListDisordered\\Tests\\TestCopyConstructorAndClone.cs",
-              "RelativeToolTip": "Tests\\TestCopyConstructorAndClone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
+              "DocumentIndex": 0,
+              "Title": "TestLinkedListDisordered.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\LinkedList\\LinkedListDisordered\\Tests\\TestLinkedListDisordered.cs",
+              "RelativeDocumentMoniker": "Tests\\TestLinkedListDisordered.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\LinkedList\\LinkedListDisordered\\Tests\\TestLinkedListDisordered.cs",
+              "RelativeToolTip": "Tests\\TestLinkedListDisordered.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:07:49.051Z",
+              "WhenOpened": "2024-03-11T13:55:01.824Z",
               "EditorCaption": ""
             }
           ]

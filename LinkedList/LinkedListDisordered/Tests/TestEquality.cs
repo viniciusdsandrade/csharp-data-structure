@@ -1,4 +1,9 @@
 ﻿namespace TestEquality
 {
 
+    class Program
+    {
+
+    }
+    
 }
