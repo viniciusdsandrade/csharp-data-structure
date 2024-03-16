@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\bin\Debug\net8.0\Vector.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\bin\Debug\net8.0\Vector.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\bin\Debug\net8.0\Vector.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\bin\Debug\net8.0\Vector.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\bin\Debug\net8.0\Vector.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\refint\Vector.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\Vector.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Vector\Vector\obj\Debug\net8.0\ref\Vector.dll
