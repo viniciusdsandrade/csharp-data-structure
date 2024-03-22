@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\bin\Debug\net8.0\Ordenacao.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\bin\Debug\net8.0\Ordenacao.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\bin\Debug\net8.0\Ordenacao.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\bin\Debug\net8.0\Ordenacao.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\bin\Debug\net8.0\Ordenacao.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\refint\Ordenacao.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\Ordenacao.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Ordenacao\Ordenacao\obj\Debug\net8.0\ref\Ordenacao.dll

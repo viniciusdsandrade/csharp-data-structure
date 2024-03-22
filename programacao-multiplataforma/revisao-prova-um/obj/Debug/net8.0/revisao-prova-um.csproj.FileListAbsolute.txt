@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\bin\Debug\net8.0\revisao-prova-um.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\bin\Debug\net8.0\revisao-prova-um.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\bin\Debug\net8.0\revisao-prova-um.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\bin\Debug\net8.0\revisao-prova-um.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\bin\Debug\net8.0\revisao-prova-um.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\refint\revisao-prova-um.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\revisao-prova-um.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\revisao-prova-um\obj\Debug\net8.0\ref\revisao-prova-um.dll

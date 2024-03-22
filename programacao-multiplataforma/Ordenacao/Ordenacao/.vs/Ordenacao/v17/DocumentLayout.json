@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\Ordenacao\\Ordenacao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E7D55A6-1CCD-4AF8-B56C-5419994FCE05}|Ordenacao.csproj|c:\\users\\vinic\\onedrive\\\u00E1rea de trabalho\\csharp-data-structure\\programacao-multiplataforma\\ordenacao\\ordenacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E7D55A6-1CCD-4AF8-B56C-5419994FCE05}|Ordenacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\Ordenacao\\Ordenacao\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\Ordenacao\\Ordenacao\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAApwCUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:18:00.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -81,12 +81,12 @@ namespace lista01
 
             if (age < 18)
             {
-                ForegroundColor = System.ConsoleColor.Red;
+                ForegroundColor = ConsoleColor.Red;
                 WriteLine("Sem permissão");
             }
             else
             {
-                ForegroundColor = System.ConsoleColor.Green;
+                ForegroundColor = ConsoleColor.Green;
                 WriteLine("Permissão concedida");
             }
         }

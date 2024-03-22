@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\lista-01\\lista-01\\lista-01.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\lista-01\\lista-01\\lista-01.csproj",
       "projectName": "lista-01",
-      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\lista-01\\lista-01\\lista-01.csproj",
+      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\lista-01\\lista-01\\lista-01.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\lista-01\\lista-01\\obj\\",
+      "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\lista-01\\lista-01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
