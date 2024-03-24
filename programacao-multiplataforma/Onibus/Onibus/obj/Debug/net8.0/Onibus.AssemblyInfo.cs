@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Onibus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdb5c248b7920e8933e72741d5adcc9799027942")]
 [assembly: System.Reflection.AssemblyProductAttribute("Onibus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Onibus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

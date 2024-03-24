@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\programacao-multiplataforma\\Onibus\\Onibus\\Onibus.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\Onibus\\Onibus\\Onibus.csproj",
       "projectName": "Onibus",
-      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\programacao-multiplataforma\\Onibus\\Onibus\\Onibus.csproj",
+      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\Onibus\\Onibus\\Onibus.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\programacao-multiplataforma\\Onibus\\Onibus\\obj\\",
+      "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\programacao-multiplataforma\\Onibus\\Onibus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",

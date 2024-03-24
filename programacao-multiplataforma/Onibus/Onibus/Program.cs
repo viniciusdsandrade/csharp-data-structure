@@ -1,11 +1,9 @@
 ﻿using static System.Console;
 using static System.Array;
 
-
 namespace Onibus
 {
     /*
-
     Uma empresa de transporte rodoviário coletivo possui
     n ônibus para atenderm passageiros que viajam de Campinas para São Paulo.
 
@@ -43,80 +41,70 @@ namespace Onibus
             // Teste 1
             int[] buses1 = [10, 20];
             int[] passengers1 = [2, 17, 18, 19];
-            var capacity1 = 2;
+            const int capacity1 = 2;
             Write("Teste 1: ");
-            WriteLine(LastTimeToCatchBus(buses1, passengers1, capacity1));
+            WriteLine(LatestTimeCatchTheBus(buses1, passengers1, capacity1));
 
             // Teste 2
             int[] buses2 = [20, 30, 10];
             int[] passengers2 = [19, 13, 26, 4, 25, 11, 21];
-            var capacity2 = 2;
+            const int capacity2 = 2;
             Write("Teste 2: ");
-            WriteLine(LastTimeToCatchBus(buses2, passengers2, capacity2));
+            WriteLine(LatestTimeCatchTheBus(buses2, passengers2, capacity2));
 
             // Teste 3
             int[] buses3 = [25, 15, 30, 20];
             int[] passengers3 = [10, 5, 7, 28, 19, 12];
-            var capacity3 = 3;
+            const int capacity3 = 3;
             Write("Teste 3: ");
-            WriteLine(LastTimeToCatchBus(buses3, passengers3, capacity3));
+            WriteLine(LatestTimeCatchTheBus(buses3, passengers3, capacity3));
 
             // Teste 4
             int[] buses4 = [40, 50, 30];
             int[] passengers4 = [37, 28, 44, 32, 49, 51, 45, 38];
-            var capacity4 = 3;
+            const int capacity4 = 3;
             Write("Teste 4: ");
-            WriteLine(LastTimeToCatchBus(buses4, passengers4, capacity4));
+            WriteLine(LatestTimeCatchTheBus(buses4, passengers4, capacity4));
+
+
+            // Teste 5
+            int[] buses5 = [3];
+            int[] passengers5 = [2, 3];
+            const int capacity5 = 2;
+
+            Write("Teste 5: ");
+            WriteLine(LatestTimeCatchTheBus(buses5, passengers5, capacity5));
         }
 
-        private static int LastTimeToCatchBus(int[] buses, int[] passengers, int capacity)
+        public static int LatestTimeCatchTheBus(int[] buses, int[] passengers, int capacity)
         {
-            Sort(passengers); // Ordena os passageiros por ordem de chegada;
-            Sort(buses); // Ordena os ônibus por ordem de partida;
+            var passenger = -1;
+            var bus = 0;
+            var currCap = 0;
 
-            // Se a capacidade for menor que 0, ou não houver ônibus ou passageiros, retorna -1.
-            if (capacity < 0 || buses.Length < 1 || passengers.Length < 1)
-                return -1;
+            Sort(buses);
+            Sort(passengers);
 
-
-            // Se o primeiro passageiro chegar depois do último ônibus, ele perde o ônibus.
-            if (passengers[0] > buses[buses.Length - 1])
-                return buses
-                    [buses.Length - 1];
-
-            var answer = -1;
-            var i = 0;
-            var j = 0;
-
-            // Enquanto houver ônibus
-            while (i < buses.Length)
+            while (bus < buses.Length)
             {
-                var arrived = 0;
-
-                //enquanto a capacidade de um ônibus não for atingida,
-                //houver passageiros e
-                //o passageiro chegar antes ou no horário do ônibus
-                while (arrived < capacity && j < passengers.Length && passengers[j] <= buses[i])
+                currCap = 0;
+                while (currCap < capacity && passenger < (passengers.Length - 1) &&
+                       passengers[passenger + 1] <= buses[bus])
                 {
-                    if (j > 0 && passengers[j] != passengers[j - 1] + 1)
-                    {
-                        answer = passengers[j] - 1;
-                    }
-
-                    j++;
-                    arrived++;
-
-
-                    if (arrived < capacity && j > i && passengers[j - 1] == buses[i])
-                    {
-                        answer = buses[i];
-                    }
+                    currCap++;
+                    passenger++;
                 }
 
-                i++;
+                bus++;
             }
 
-            return answer == -1 ? buses[buses.Length - 1] : answer;
+            if (currCap < capacity && (passenger < 0 || buses[buses.Length - 1] != passengers[passenger]))
+                return buses[buses.Length - 1];
+
+            while (passenger > 0 && (passengers[passenger] - 1) == passengers[passenger - 1])
+                passenger--;
+
+            return passengers[passenger] - 1;
         }
     }
 }

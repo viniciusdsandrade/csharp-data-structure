@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Onibus
-build_property.ProjectDir = C:\Users\vinic\OneDrive\Área de Trabalho\programacao-multiplataforma\Onibus\Onibus\
+build_property.ProjectDir = C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\programacao-multiplataforma\Onibus\Onibus\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
