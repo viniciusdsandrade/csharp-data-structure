@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\bin\Debug\net8.0\Exercicio.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\bin\Debug\net8.0\Exercicio.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\bin\Debug\net8.0\Exercicio.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\bin\Debug\net8.0\Exercicio.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\bin\Debug\net8.0\Exercicio.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\refint\Exercicio.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\Exercicio.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\Exercicio\obj\Debug\net8.0\ref\Exercicio.dll

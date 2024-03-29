@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\bin\Debug\net8.0\lista-1-cotuca.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\bin\Debug\net8.0\lista-1-cotuca.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\bin\Debug\net8.0\lista-1-cotuca.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\bin\Debug\net8.0\lista-1-cotuca.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\bin\Debug\net8.0\lista-1-cotuca.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\refint\lista-1-cotuca.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\lista-1-cotuca.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\Programacao-Multiplataforma\lista-1-cotuca\obj\Debug\net8.0\ref\lista-1-cotuca.dll
