@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lista-1-cotuca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dab9d99a0689cc6643623307f79edf964bc0097")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42a0037ad4cc384e2af9fd2fe7628aa1a8fea693")]
 [assembly: System.Reflection.AssemblyProductAttribute("lista-1-cotuca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lista-1-cotuca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
