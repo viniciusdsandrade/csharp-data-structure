@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-1-cotuca", "lista-1-cotuca.csproj", "{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lista-01-TI224-programacao-multiplataforma", "lista-01-TI224-programacao-multiplataforma.csproj", "{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

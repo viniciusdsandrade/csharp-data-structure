@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-1-cotuca.csproj",
-      "projectName": "lista-1-cotuca",
-      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-1-cotuca.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj",
+      "projectName": "lista-01-TI224-programacao-multiplataforma",
+      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\obj\\",
       "projectStyle": "PackageReference",
