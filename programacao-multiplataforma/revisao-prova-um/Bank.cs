@@ -47,7 +47,7 @@
 
         public string GetNumber()
         {
-            return GetNumber();
+            return Number;
         }
 
         public double GetBalance()
