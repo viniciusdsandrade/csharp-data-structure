@@ -94,9 +94,6 @@ namespace Company
                 Equals(salary, other.salary);
         }
 
-        public override string ToString()
-        {
-            return "Employee[id=" + id + ",name=" + GetName() + ",salary=" + salary + "]";
-        }
+        public override string ToString() => "Employee[id = " + id + ", name = " + GetName() + ", salary = " + salary + "]";
     }
 }
