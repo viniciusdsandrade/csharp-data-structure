@@ -1,5 +1,4 @@
-﻿using System;
-using static System.Math;
+﻿using static System.Math;
 
 namespace Point
 {
@@ -38,8 +37,8 @@ namespace Point
 
             MovablePoint that = (MovablePoint)obj;
 
-            return Equals(this.x, that.x) && 
-                Equals(this.y, that.y) && 
+            return Equals(this.x, that.x) &&
+                Equals(this.y, that.y) &&
                 Equals(this.speed, that.speed);
         }
 
@@ -100,11 +99,11 @@ namespace Point
 
         public override bool Equals(object? obj)
         {
-             if(this == obj) return true;
-             if(obj == null) return false;
-             if(this.GetType() != obj.GetType()) return false;
+            if (this == obj) return true;
+            if (obj == null) return false;
+            if (this.GetType() != obj.GetType()) return false;
 
-             MovableRectangle that = (MovableRectangle)obj;
+            MovableRectangle that = (MovableRectangle)obj;
 
             return obj is MovableRectangle rectangle &&
                    EqualityComparer<MovablePoint>.Default.Equals(topLeft, rectangle.topLeft) &&

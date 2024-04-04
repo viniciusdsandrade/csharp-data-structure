@@ -1,9 +1,4 @@
-﻿using System.Diagnostics;
-using System.Xml.Linq;
-using static System.Console;
-using static System.Math;
-
-namespace Company
+﻿namespace Company
 {
     public class Employee
     {
@@ -43,9 +38,9 @@ namespace Company
         }
 
         public int GetId() => id;
-   
+
         public string GetFirstName() => firstName;
-   
+
         public string GetLastName() => lastName;
 
         public double GetSalary() => salary;
@@ -63,7 +58,7 @@ namespace Company
         }
 
         public double GetAnnualSalary() => salary * 13;
- 
+
         public double RaiseSalary(double percent) => salary += salary * percent / 100;
 
         public override int GetHashCode()
@@ -71,8 +66,8 @@ namespace Company
             const int prime = 31;
             int hash = 1;
 
-            hash *= prime  + ((firstName == null) ? 0 : firstName.GetHashCode());
-            hash *= prime  + id;
+            hash *= prime + ((firstName == null) ? 0 : firstName.GetHashCode());
+            hash *= prime + id;
             hash *= prime + ((lastName == null) ? 0 : lastName.GetHashCode());
 
             if (hash < 0) _ = -hash;
@@ -87,10 +82,10 @@ namespace Company
             if (this.GetType() != obj.GetType()) return false;
 
             Employee other = (Employee)obj;
-            
-            return Equals(id, other.id) && 
-                Equals(firstName, other.firstName) && 
-                Equals(lastName, other.lastName) && 
+
+            return Equals(id, other.id) &&
+                Equals(firstName, other.firstName) &&
+                Equals(lastName, other.lastName) &&
                 Equals(salary, other.salary);
         }
 

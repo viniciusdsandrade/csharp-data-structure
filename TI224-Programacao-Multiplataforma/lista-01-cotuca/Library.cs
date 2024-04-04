@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Library
+﻿namespace Library
 {
     public class Book
     {
@@ -44,7 +42,7 @@ namespace Library
         public Author GetAuthor() => author;
 
         public double GetPrice() => price;
-     
+
         public void SetPrice(double price)
         {
             if (price < 0)
@@ -76,7 +74,7 @@ namespace Library
             hash *= prime + price.GetHashCode();
             hash *= prime + quantity.GetHashCode();
 
-            if (hash < 0)  _ = -hash;        
+            if (hash < 0) _ = -hash;
 
             return hash;
         }
@@ -89,9 +87,9 @@ namespace Library
 
             Book that = (Book)obj;
 
-            return Equals(this.name, that.name) && 
-                Equals(this.author, that.author) && 
-                Equals(this.price, that.price) && 
+            return Equals(this.name, that.name) &&
+                Equals(this.author, that.author) &&
+                Equals(this.price, that.price) &&
                 Equals(this.quantity, that.quantity);
         }
 
@@ -115,7 +113,7 @@ namespace Library
                 throw new ArgumentException("Invalid gender");
 
             this.name = name;
-            this.email = email;   
+            this.email = email;
             this.gender = gender;
         }
 
@@ -176,11 +174,11 @@ namespace Library
 
             Author that = (Author)obj;
 
-            return Equals(this.name, that.name) && 
-               Equals(this.email, that) && 
+            return Equals(this.name, that.name) &&
+               Equals(this.email, that) &&
                 Equals(this.gender, that.gender);
         }
 
-        public override string ToString() => "Author[name = " + name + ", email = " + email + ", gender = " + gender + "]";    
+        public override string ToString() => "Author[name = " + name + ", email = " + email + ", gender = " + gender + "]";
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-fatec\\sistema-de-atendimento-fila\\Atendimento\\Atendimento.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\IED001-Estruturas de Dados\\sistema-de-atendimento-fila\\Atendimento\\Atendimento.csproj",
       "projectName": "Atendimento",
-      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-fatec\\sistema-de-atendimento-fila\\Atendimento\\Atendimento.csproj",
+      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\IED001-Estruturas de Dados\\sistema-de-atendimento-fila\\Atendimento\\Atendimento.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-fatec\\sistema-de-atendimento-fila\\Atendimento\\obj\\",
+      "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\IED001-Estruturas de Dados\\sistema-de-atendimento-fila\\Atendimento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",

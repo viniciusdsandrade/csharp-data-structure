@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj": {}
+    "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj": {
+    "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj",
         "projectName": "lista-01-TI224-programacao-multiplataforma",
-        "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj",
+        "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\lista-01-TI224-programacao-multiplataforma.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\Programacao-Multiplataforma\\lista-01-cotuca\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\bin\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\bin\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\bin\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\bin\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\bin\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\refint\lista-01-TI224-programacao-multiplataforma.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\lista-01-TI224-programacao-multiplataforma.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\lista-01-cotuca\obj\Debug\net8.0\ref\lista-01-TI224-programacao-multiplataforma.dll

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Text;
-
-namespace Shopping
+﻿namespace Shopping
 {
     public class Invoice
     {
@@ -52,7 +49,7 @@ namespace Shopping
             return total;
         }
 
-        public double GetTotalAfterDiscount() => GetTotal() * (1 - customer.GetDiscount() / 100);  
+        public double GetTotalAfterDiscount() => GetTotal() * (1 - customer.GetDiscount() / 100);
 
         public override int GetHashCode()
         {
@@ -75,7 +72,7 @@ namespace Shopping
                 }
 
                 if (hash < 0) _ = -hash;
-                
+
                 return hash;
             }
         }
@@ -89,7 +86,7 @@ namespace Shopping
             Invoice that = (Invoice)obj;
 
             if (id != that.id || nProducts != that.nProducts) return false;
-            
+
             if (id != that.id || nProducts != that.nProducts || !customer.Equals(that.customer))
             {
                 return false;
@@ -214,7 +211,7 @@ namespace Shopping
             hash *= prime + price.GetHashCode();
 
             if (hash < 0) _ = -hash;
-            
+
             return hash;
         }
 
@@ -224,10 +221,10 @@ namespace Shopping
             if (obj == null) return false;
             if (this.GetType() != obj.GetType()) return false;
 
-            Product that = (Product) obj;
-    
-            return Equals(this.id, that.id) && 
-                Equals(this.name, that.name) && 
+            Product that = (Product)obj;
+
+            return Equals(this.id, that.id) &&
+                Equals(this.name, that.name) &&
                 Equals(this.price, that.price);
         }
 

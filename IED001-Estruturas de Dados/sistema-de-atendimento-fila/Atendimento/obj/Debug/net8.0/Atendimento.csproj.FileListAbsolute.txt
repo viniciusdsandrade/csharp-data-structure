@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\bin\Debug\net8.0\Atendimento.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\bin\Debug\net8.0\Atendimento.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\bin\Debug\net8.0\Atendimento.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\bin\Debug\net8.0\Atendimento.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\bin\Debug\net8.0\Atendimento.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\refint\Atendimento.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\Atendimento.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\sistema-de-atendimento-fila\Atendimento\obj\Debug\net8.0\ref\Atendimento.dll

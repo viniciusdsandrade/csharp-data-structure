@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0OdMBoXKvnNohzP94GGecLe1vvHCt9kLQWkmkCTz4vLy/VyCuOVoupfCMq2ZkvT2x6XdwzzoeAqHbHHcOnOhTA==",
+  "dgSpecHash": "GCLTgDWDi1e8W7tuYjIpY0Qpo4aeWMVB9iYbCi1yWEv+I0pDuVNJuLNmoMbOkFYZ1FzZy0Rb8zXfoMtSQ9e3sQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-fatec\\sistema-de-atendimento-fila\\Atendimento\\Atendimento.csproj",
+  "projectFilePath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\IED001-Estruturas de Dados\\sistema-de-atendimento-fila\\Atendimento\\Atendimento.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
