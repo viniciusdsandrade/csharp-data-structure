@@ -317,7 +317,7 @@ namespace Program
               (a) Qual é o resultado da impressão da linha 30?
               (b) busca1 é “melhor” do que busca2? Justifique sua resposta.
              */
-            int[] tamanhos = [100, 1_000_000, 100_000_000];
+            int[] tamanhos = [100, 1_000, 10_000, 100_000, 1_000_000, 10_000_000, 100_000_000];
             Random random = new();
 
             foreach (int tamanhoArray in tamanhos)
@@ -338,7 +338,7 @@ namespace Program
                 int indice1 = Busca1(array, valorBusca);
                 stopwatch.Stop();
                 WriteLine($"Tamanho do Array: {tamanhoArray}");
-                WriteLine($"Busca1: Índice encontrado = {indice1}, Ticks = {stopwatch.ElapsedTicks}");
+                WriteLine($"Busca1: Índice encontrado = {indice1}, Ticks = {stopwatch.Elapsed}");
 
 
                 stopwatch.Reset();
@@ -348,7 +348,7 @@ namespace Program
                 stopwatch.Start();
                 int indice2 = Busca2(array, valorBusca);
                 stopwatch.Stop();
-                WriteLine($"Busca2: Índice encontrado = {indice2}, Ticks = {stopwatch.ElapsedTicks}");
+                WriteLine($"Busca2: Índice encontrado = {indice2}, Ticks = {stopwatch.Elapsed}");
                 WriteLine();
             }
             WriteLine();

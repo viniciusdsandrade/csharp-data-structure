@@ -9,11 +9,14 @@
 
         public Employee(int id, string firstName, string lastName)
         {
-            if (string.IsNullOrEmpty(firstName))
-                throw new ArgumentException("first name cannot be null or empty");
+            if (Int128.IsNegative(id))
+                throw new ArgumentException("ID must be a positive integer.", nameof(id));
+            
+            if (string.IsNullOrWhiteSpace(firstName))
+                throw new ArgumentException("First name cannot be null or empty.", nameof(firstName));       
 
-            if (string.IsNullOrEmpty(lastName))
-                throw new ArgumentException("last name cannot be null or empty");
+            if (string.IsNullOrWhiteSpace(lastName))
+                throw new ArgumentException("Last name cannot be null or empty.", nameof(lastName)); 
 
             this.id = id;
             this.firstName = firstName;
@@ -22,13 +25,16 @@
 
         public Employee(int id, string firstName, string lastName, double salary)
         {
-            if (string.IsNullOrEmpty(firstName))
-                throw new ArgumentException("first name cannot be null or empty");
+            if (Int128.IsNegative(id))
+                throw new ArgumentException("ID must be a positive integer.", nameof(id));
 
-            if (string.IsNullOrEmpty(lastName))
-                throw new ArgumentException("last name cannot be null or empty");
+            if (string.IsNullOrWhiteSpace(firstName))
+                throw new ArgumentException("First name cannot be null or empty.", nameof(firstName));
 
-            if (salary < 0)
+            if (string.IsNullOrWhiteSpace(lastName))
+                throw new ArgumentException("Last name cannot be null or empty.", nameof(lastName));
+
+            if (double.IsNegative(salary))
                 throw new ArgumentException("Salary cannot be negative");
 
             this.id = id;
@@ -49,10 +55,8 @@
 
         public void SetSalary(double salary)
         {
-            if (salary < 0)
-            {
+            if (double.IsNegative(salary))  
                 throw new ArgumentException("Salary cannot be negative");
-            }
 
             this.salary = salary;
         }
@@ -70,7 +74,7 @@
             hash *= prime + id;
             hash *= prime + ((lastName == null) ? 0 : lastName.GetHashCode());
 
-            if (hash < 0) _ = -hash;
+            if (hash < 0) hash = -hash;
 
             return hash;
         }
@@ -83,10 +87,10 @@
 
             Employee other = (Employee)obj;
 
-            return Equals(id, other.id) &&
-                Equals(firstName, other.firstName) &&
-                Equals(lastName, other.lastName) &&
-                Equals(salary, other.salary);
+            return Equals(this.id, other.id) &&
+                Equals(this.firstName, other.firstName) &&
+                Equals(this.lastName, other.lastName) &&
+                Equals(this.salary, other.salary);
         }
 
         public override string ToString() => "Employee[id = " + id + ", name = " + GetName() + ", salary = " + salary + "]";

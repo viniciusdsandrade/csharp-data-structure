@@ -51,7 +51,7 @@ namespace Point
             hash *= prime + y;
             hash *= prime + speed;
 
-            if (hash < 0) _ = -hash;
+            if (hash < 0) hash = -hash;
 
             return hash;
         }
@@ -105,9 +105,8 @@ namespace Point
 
             MovableRectangle that = (MovableRectangle)obj;
 
-            return obj is MovableRectangle rectangle &&
-                   EqualityComparer<MovablePoint>.Default.Equals(topLeft, rectangle.topLeft) &&
-                   EqualityComparer<MovablePoint>.Default.Equals(bottomRight, rectangle.bottomRight);
+            return Equals(this.topLeft, that.topLeft) &&
+                Equals(this.bottomRight, that.bottomRight);
         }
 
         public override int GetHashCode()
@@ -118,7 +117,7 @@ namespace Point
             hash *= prime + topLeft.GetHashCode();
             hash *= prime + bottomRight.GetHashCode();
 
-            if (hash < 0) _ = -hash;
+            if (hash < 0) hash = -hash;
 
             return hash;
         }

@@ -9,10 +9,10 @@
 
         public Book(string name, Author author, double price)
         {
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Name cannot be null or empty");
 
-            if (price < 0)
+            if (double.IsNegative(price))
                 throw new ArgumentException("Price cannot be negative");
 
             this.name = name;
@@ -22,13 +22,13 @@
 
         public Book(string name, Author author, double price, int quantiyty)
         {
-            if (string.IsNullOrEmpty(name))
-                throw new ArgumentException("Name cannot be null or empty");
-
-            if (quantity < 0)
+            if (Int128.IsNegative(quantity))
                 throw new ArgumentException("Quantity cannot be negative");
 
-            if (price < 0)
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("Name cannot be null or empty");
+
+            if (double.IsNegative(price))
                 throw new ArgumentException("Price cannot be negative");
 
             this.name = name;
@@ -45,10 +45,8 @@
 
         public void SetPrice(double price)
         {
-            if (price < 0)
-            {
+            if (double.IsNegative(price))
                 throw new ArgumentException("Price cannot be negative");
-            }
 
             this.price = price;
         }
@@ -57,10 +55,9 @@
 
         public void SetQuantity(int quantity)
         {
-            if (quantity < 0)
-            {
+            if (Int128.IsNegative(quantity))
                 throw new ArgumentException("Quantity cannot be negative");
-            }
+            
             this.quantity = quantity;
         }
 
@@ -74,7 +71,7 @@
             hash *= prime + price.GetHashCode();
             hash *= prime + quantity.GetHashCode();
 
-            if (hash < 0) _ = -hash;
+            if (hash < 0) hash = -hash;
 
             return hash;
         }
@@ -103,7 +100,7 @@
 
         public Author(string name, string email, char gender)
         {
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Name cannot be null or empty");
 
             if (!IsValidEmail(email))
@@ -136,7 +133,7 @@
 
         private static bool IsValidEmail(string email)
         {
-            return !string.IsNullOrEmpty(email) && email.Contains("@");
+            return !string.IsNullOrWhiteSpace(email) && email.Contains('@');
         }
 
         public char GetGender() => gender;
@@ -157,21 +154,10 @@
 
         public override bool Equals(object? obj)
         {
-            if (this == obj)
-            {
-                return true;
-            }
-
-            if (obj == null)
-            {
-                return false;
-            }
-
-            if (this.GetType() != obj.GetType())
-            {
-                return false;
-            }
-
+            if (this == obj) return true;
+            if (obj == null) return false;
+            if (this.GetType() != obj.GetType()) return false;
+            
             Author that = (Author)obj;
 
             return Equals(this.name, that.name) &&

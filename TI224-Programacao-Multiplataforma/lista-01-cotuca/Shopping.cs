@@ -53,28 +53,25 @@
 
         public override int GetHashCode()
         {
-            unchecked
-            {
                 const int prime = 31;
                 int hash = 1;
 
-                hash = hash * prime + id.GetHashCode();
-                hash = hash * prime + customer.GetHashCode();
+                hash *= prime + id.GetHashCode();
+                hash *= prime + customer.GetHashCode();
 
                 foreach (var product in products)
                 {
-                    hash = hash * prime + product.GetHashCode();
+                    hash *= prime + product.GetHashCode();
                 }
 
                 foreach (var quantity in quantities)
                 {
-                    hash = hash * prime + quantity.GetHashCode();
+                    hash *= prime + quantity.GetHashCode();
                 }
 
-                if (hash < 0) _ = -hash;
+                if (hash < 0) hash = -hash;
 
                 return hash;
-            }
         }
 
         public override bool Equals(object? obj)
@@ -85,19 +82,17 @@
 
             Invoice that = (Invoice)obj;
 
-            if (id != that.id || nProducts != that.nProducts) return false;
+            if (id != that.id || nProducts != that.nProducts) 
+                return false;
 
             if (id != that.id || nProducts != that.nProducts || !customer.Equals(that.customer))
-            {
-                return false;
-            }
+                return false; 
 
             for (int i = 0; i < nProducts; i++)
             {
-                if (!products[i].Equals(that.products[i]) || quantities[i] != that.quantities[i])
-                {
-                    return false;
-                }
+                if (!products[i].Equals(that.products[i]) || 
+                    quantities[i] != that.quantities[i])
+                    return false;    
             }
 
             return true;
@@ -114,10 +109,13 @@
 
         public Customer(int id, string name, int discount)
         {
-            if (string.IsNullOrEmpty(name))
+            if (Int128.IsNegative(id))
+                throw new ArgumentException("ID must be a positive integer.", nameof(id));
+
+            if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Name cannot be null or empty");
 
-            if (discount < 0 || discount > 100)
+            if (Int128.IsNegative(id) || discount > 100)
                 throw new ArgumentException("Discount must be between 0 and 100");
 
             this.id = id;
@@ -131,10 +129,8 @@
         public void SetDiscount(int discount)
         {
             if (discount < 0 || discount > 100)
-            {
                 throw new ArgumentException("Discount must be between 0 and 100");
-            }
-
+            
             this.discount = discount;
         }
 
@@ -147,7 +143,7 @@
             hash *= prime + name.GetHashCode();
             hash *= prime + discount.GetHashCode();
 
-            if (hash < 0) _ = -hash;
+            if (hash < 0) hash = -hash;
 
             return hash;
         }
@@ -177,10 +173,13 @@
 
         public Product(int id, string name, double price)
         {
-            if (string.IsNullOrEmpty(name))
+            if (Int128.IsNegative(id))
+                throw new ArgumentException("ID must be a positive integer.", nameof(id));
+
+            if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Name cannot be null or empty");
 
-            if (price < 0.0)
+            if (double.IsNegative(price))
                 throw new ArgumentException("Price cannot be negative");
 
             this.id = id;
@@ -193,10 +192,8 @@
         public double GetPrice() => price;
         public void SetPrice(double price)
         {
-            if (price < 0.0)
-            {
+            if (double.IsNegative(price))
                 throw new ArgumentException("Price cannot be negative");
-            }
 
             this.price = price;
         }
@@ -210,7 +207,7 @@
             hash *= prime + name.GetHashCode();
             hash *= prime + price.GetHashCode();
 
-            if (hash < 0) _ = -hash;
+            if (hash < 0) hash = -hash;
 
             return hash;
         }
