@@ -92,7 +92,7 @@ namespace Program
             return -1;
         }
 
-        private static int Busca2(int[] A, int k)
+        public static int Busca2(int[] A, int k)
         {
             int inicio = 0, fim = A.Length - 1;
             while (inicio <= fim)
@@ -137,38 +137,44 @@ namespace Program
             Escreva um programa em C# que encontre dois elementos de um arranjo A de n
             inteiros, distintos entre si, que somados seja igual a um determinado inteiro k.
         */
-        public static void EncontrarElementos(int[] arr, int n, int k)
+        public static (int, int)[] EncontrarDoisElementosSomaK(int[] arr, int k)
         {
-            Dictionary<int, int> map = [];
-            for (int i = 0; i < n; i++)
+            List<(int, int)> pares = new List<(int, int)>();
+            HashSet<int> set = new HashSet<int>();
+
+            for (int i = 0; i < arr.Length; i++)
             {
-                int complement = k - arr[i];
-                if (map.ContainsKey(complement))
+                int num = arr[i];
+                int complemento = k - num;
+                if (set.Contains(complemento))
                 {
-                    WriteLine("(" + arr[i] + ", " + complement + ")");
+                    pares.Add((num, complemento));
                 }
-                map[arr[i]] = i;
+                set.Add(num);
             }
+
+            return pares.ToArray();
         }
+
 
 
         /*
             Exercício 7
             Escreva um programa em C# que remova os elementos duplicados de um arranjo
-            A de n cadeias de caracteres.
+            A de n cadeias de caracteres. 
         */
         public static string RemoveDuplicados(string str)
         {
-            List<char> lista = [];
-            foreach (char caracter in str)
+            HashSet<char> set = [];
+            for (int i = 0; i < str.Length; i++)
             {
-                if (!lista.Contains(caracter))
-                {
-                    lista.Add(caracter);
-                }
+                char caracter = str[i];
+                set.Add(caracter);
             }
-            return new string(lista.ToArray());
+            return new string(set.ToArray());
         }
+
+
 
         /*
             Exercício 8
@@ -189,8 +195,10 @@ namespace Program
                     }
                 }
             }
-            return A;   
+            return A;
         }
+
+
 
         /*
             Exercício 9
@@ -238,6 +246,8 @@ namespace Program
             }
         }
 
+
+
         /*
             Exercício 10
             Escreva um programa em C# que encontre um elemento específico em um arranjo
@@ -268,8 +278,8 @@ namespace Program
         static void Main(string[] args)
         {
             /*
-             * Exercício 1
-             * Qual o retorno deste programa para funcao([83, 41, 5, 1, 59, 97], 2)?
+               Exercício 1
+               Qual o retorno deste programa para funcao([83, 41, 5, 1, 59, 97], 2)?
              */
             int[] A = [83, 41, 5, 1, 59, 97];
             ImprimirArray(A);
@@ -287,6 +297,7 @@ namespace Program
             WriteLine("O resultado da função para " + n + " é: " + Funcao2(n));
             WriteLine();
 
+
             /*
               Exercício 3
               O programa abaixo recebe um arranjo A de n números inteiros e o rearranja
@@ -301,12 +312,12 @@ namespace Program
 
 
             /*
-             Exercício 4
-             Observe o programa abaixo e responda:
-              ( a ) Qual é o resultado da impressão da linha 30?
-              ( b ) busca1 é “melhor” do que busca2? Justifique sua resposta.
+              Exercício 4
+              Observe o programa abaixo e responda:
+              (a) Qual é o resultado da impressão da linha 30?
+              (b) busca1 é “melhor” do que busca2? Justifique sua resposta.
              */
-            int[] tamanhos = [1000, 100000, 10000000];
+            int[] tamanhos = [100, 1_000_000, 100_000_000];
             Random random = new();
 
             foreach (int tamanhoArray in tamanhos)
@@ -341,6 +352,8 @@ namespace Program
                 WriteLine();
             }
             WriteLine();
+
+
             /*
             Exercício 5
             Escreva um programa em C# que embaralhe um arranjo A de n inteiros.
@@ -352,17 +365,38 @@ namespace Program
             WriteLine();
 
 
+
             /*
             Exercício 6
             Escreva um programa em C# que encontre dois elementos de um arranjo A de n
             inteiros, distintos entre si, que somados seja igual a um determinado inteiro k.
             */
-            int[] arr = [1, 4, 45, 6, 10, -8];
-            int k = 16;
-            int l = arr.Length;
-            WriteLine("Os pares de números que somam " + k + " são: ");
-            EncontrarElementos(arr, l, k);
+            int[] arr = [1, 4, 45, 6, 10, -8, -1];
+            int k = 5;
+            WriteLine("Arranjo: ");
+            ImprimirArray(arr);
+            (int, int)[] pares = EncontrarDoisElementosSomaK(arr, k);
+            WriteLine("Pares que somam " + k + ": ");
+            foreach ((int, int) par in pares)
+            {
+                WriteLine(par);
+            }
             WriteLine();
+
+
+
+            /*
+            Exercício 7
+            Escreva um programa em C# que remova os elementos duplicados de um arranjo
+            A de n cadeias de caracteres. 
+            */
+            string str = "geeksforgeeks";
+            WriteLine("String original: " + str);
+            WriteLine("String sem duplicados: " + RemoveDuplicados(str));
+            WriteLine();
+
+
+
             /*
             Exercício 8
             Escreva um programa em C# que organize um arranjo A de n inteiros de modo
@@ -386,7 +420,7 @@ namespace Program
             A de n inteiros. Um elemento majoritário é um elemento que aparece mais de
             n/2 vezes.
             */
-            int[] majoritario = [2, 2, 1, 1, 1, 2, 2];
+            int[] majoritario = [2, 2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 2];
             ImprimirArray(majoritario);
             WriteLine("Elemento majoritário: " + ElementoMajoritario(majoritario));
             WriteLine();
@@ -484,15 +518,15 @@ namespace Program
         public static void ImprimirArray(int[] array)
         {
             Write("[");
-            foreach (int elemento in array)
+            for (int i = 0; i < array.Length; i++)
             {
-                if (array[^1] == elemento)
+                if (i == array.Length - 1)
                 {
-                    Write(elemento);
+                    Write(array[i].ToString());
                 }
                 else
                 {
-                    Write(elemento + ", ");
+                    Write(array[i] + ", ");
                 }
             }
             Write("]");
