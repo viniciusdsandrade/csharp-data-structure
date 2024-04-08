@@ -25,7 +25,7 @@
 
         public Employee(int id, string firstName, string lastName, double salary)
         {
-            if (Int128.IsNegative(id))
+            if (!Int128.IsPositive(id))
                 throw new ArgumentException("ID must be a positive integer.", nameof(id));
 
             if (string.IsNullOrWhiteSpace(firstName))
@@ -85,12 +85,12 @@
             if (obj == null) return false;
             if (this.GetType() != obj.GetType()) return false;
 
-            Employee other = (Employee)obj;
+            Employee that = (Employee)obj;
 
-            return Equals(this.id, other.id) &&
-                Equals(this.firstName, other.firstName) &&
-                Equals(this.lastName, other.lastName) &&
-                Equals(this.salary, other.salary);
+            return Object.Equals(this.id, that.id) &&
+                Object.Equals(this.firstName, that.firstName) &&
+                Object.Equals(this.lastName, that.lastName) &&
+                Object.Equals(this.salary, that.salary);
         }
 
         public override string ToString() => "Employee[id = " + id + ", name = " + GetName() + ", salary = " + salary + "]";

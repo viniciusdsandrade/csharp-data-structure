@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\bin\Debug\net8.0\lista-02-fatec.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\bin\Debug\net8.0\lista-02-fatec.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\bin\Debug\net8.0\lista-02-fatec.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\bin\Debug\net8.0\lista-02-fatec.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\bin\Debug\net8.0\lista-02-fatec.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\refint\lista-02-fatec.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\lista-02-fatec.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-02-fatec\lista-02-fatec\obj\Debug\net8.0\ref\lista-02-fatec.dll

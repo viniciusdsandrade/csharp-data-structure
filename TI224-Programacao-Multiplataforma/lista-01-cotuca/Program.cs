@@ -31,6 +31,7 @@ namespace Program
             return A;
         }
 
+
         /*
            Exercício 2
            Qual o retorno deste programa para funcao(81)?
@@ -49,6 +50,7 @@ namespace Program
             return p;
         }
 
+
         /*
           Exercício 3
           O programa abaixo recebe um arranjo A de n números inteiros e o rearranja
@@ -62,7 +64,7 @@ namespace Program
             {
                 chave = A[i];
                 j = i - 1;
-                while (j >= 0 && A[j] > chave)
+                while (j >= 0 && A[j] < chave)
                 {
                     A[j + 1] = A[j];
                     j--;
@@ -71,7 +73,6 @@ namespace Program
             }
             return A;
         }
-
 
 
         /*
@@ -115,6 +116,7 @@ namespace Program
             return -1;
         }
 
+
         /*
             Exercício 5
             Escreva um programa em C# que embaralhe um arranjo A de n inteiros.
@@ -132,6 +134,7 @@ namespace Program
             return A;
         }
 
+
         /*
             Exercício 6
             Escreva um programa em C# que encontre dois elementos de um arranjo A de n
@@ -147,15 +150,13 @@ namespace Program
                 int num = arr[i];
                 int complemento = k - num;
                 if (set.Contains(complemento))
-                {
                     pares.Add((num, complemento));
-                }
+                
                 set.Add(num);
             }
-
+           
             return pares.ToArray();
         }
-
 
 
         /*
@@ -163,17 +164,14 @@ namespace Program
             Escreva um programa em C# que remova os elementos duplicados de um arranjo
             A de n cadeias de caracteres. 
         */
-        public static string RemoveDuplicados(string str)
+        public static string RemoveDuplicados(List<char> str)
         {
             HashSet<char> set = [];
-            for (int i = 0; i < str.Length; i++)
-            {
-                char caracter = str[i];
-                set.Add(caracter);
-            }
+            for (int i = 0; i < str.Count; i++)
+                set.Add(str[i]);
+            
             return new string(set.ToArray());
         }
-
 
 
         /*
@@ -197,7 +195,6 @@ namespace Program
             }
             return A;
         }
-
 
 
         /*
@@ -245,7 +242,6 @@ namespace Program
                 return -1;
             }
         }
-
 
 
         /*
@@ -304,6 +300,7 @@ namespace Program
               de modo que seus elementos, ao final, estejam ordenados de forma decrescente.
               Contudo, este programa possui alguns erros de lógica. Encontre-os e corrija-os.
              */
+            WriteLine("Exercício 3");
             int[] B = [83, 41, 5, 1, 59, 97];
             ImprimirArray(B);
             int[] result2 = Ordena(B);
@@ -317,7 +314,11 @@ namespace Program
               (a) Qual é o resultado da impressão da linha 30?
               (b) busca1 é “melhor” do que busca2? Justifique sua resposta.
              */
-            int[] tamanhos = [100, 1_000, 10_000, 100_000, 1_000_000, 10_000_000, 100_000_000];
+            int[] tamanhos = [
+                100, 1_000, 10_000, 
+                100_000, 1_000_000, 
+                10_000_000, 100_000_000
+            ];
             Random random = new();
 
             foreach (int tamanhoArray in tamanhos)
@@ -327,9 +328,7 @@ namespace Program
 
                 // Preencher o array com números de 0 até tamanhoArray - 1
                 for (int f = 0; f < tamanhoArray; f++)
-                {
-                    array[f] = f;
-                }
+                    array[f] = f;      
 
                 Stopwatch stopwatch = new();
 
@@ -339,8 +338,6 @@ namespace Program
                 stopwatch.Stop();
                 WriteLine($"Tamanho do Array: {tamanhoArray}");
                 WriteLine($"Busca1: Índice encontrado = {indice1}, Ticks = {stopwatch.Elapsed}");
-
-
                 stopwatch.Reset();
 
                 // Medir o tempo de execução da Busca2
@@ -365,7 +362,6 @@ namespace Program
             WriteLine();
 
 
-
             /*
             Exercício 6
             Escreva um programa em C# que encontre dois elementos de um arranjo A de n
@@ -384,17 +380,15 @@ namespace Program
             WriteLine();
 
 
-
             /*
             Exercício 7
             Escreva um programa em C# que remova os elementos duplicados de um arranjo
             A de n cadeias de caracteres. 
             */
-            string str = "geeksforgeeks";
-            WriteLine("String original: " + str);
-            WriteLine("String sem duplicados: " + RemoveDuplicados(str));
+            List<char> list = [.. "geeksforgeeks"];
+            WriteLine("String original: " + new string(list.ToArray()));
+            WriteLine("String sem duplicados: " + RemoveDuplicados(list));
             WriteLine();
-
 
 
             /*
@@ -449,16 +443,17 @@ namespace Program
             WriteLine("Salário Anual:               " + employee.GetAnnualSalary());
             WriteLine();
 
+
             /*
              * Exercício 13
              */
             Author author = new("Vinícius", "vinicius_andrade2010@hotmail.com", 'm');
-            WriteLine(author);
-
+            WriteLine(author); 
 
             Book book = new("C# 9 and .NET 5", author, 100, 10);
             WriteLine(book);
             WriteLine();
+
 
             /*
              * Exercício 14
@@ -492,8 +487,8 @@ namespace Program
 
             rectangle.MoveRight();
             WriteLine(rectangle);
-
             WriteLine();
+
 
             /*
              * Exercício 15

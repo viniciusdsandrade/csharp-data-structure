@@ -22,12 +22,15 @@
 
         public Book(string name, Author author, double price, int quantiyty)
         {
-            if (Int128.IsNegative(quantity))
-                throw new ArgumentException("Quantity cannot be negative");
-
             if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Name cannot be null or empty");
 
+            if (author is null)
+                throw new ArgumentException("Author cannot be null");
+
+            if (Int128.IsNegative(quantity))
+                throw new ArgumentException("Quantity cannot be negative");
+       
             if (double.IsNegative(price))
                 throw new ArgumentException("Price cannot be negative");
 

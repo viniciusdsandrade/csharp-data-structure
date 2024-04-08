@@ -6,7 +6,7 @@
         private readonly Customer customer;
         private readonly List<Product> products = [];
         private readonly List<int> quantities = [];
-        private readonly int nProducts = 0;
+        private int nProducts = 0;
 
         public Invoice(int id, Customer customer)
         {
@@ -16,10 +16,11 @@
 
         public bool AddProduct(Product product, int amount)
         {
-            if (products.Count == quantities.Count)
+            if (nProducts < 30) // Verifica se o número máximo de produtos não foi excedido
             {
                 products.Add(product);
                 quantities.Add(amount);
+                nProducts++;
                 return true;
             }
 
@@ -33,6 +34,7 @@
             {
                 products.RemoveAt(index);
                 quantities.RemoveAt(index);
+                nProducts--;
                 return true;
             }
 
@@ -42,10 +44,10 @@
         public double GetTotal()
         {
             double total = 0.0;
+
             for (int i = 0; i < products.Count; i++)
-            {
                 total += products[i].GetPrice() * quantities[i];
-            }
+            
             return total;
         }
 
@@ -60,14 +62,11 @@
                 hash *= prime + customer.GetHashCode();
 
                 foreach (var product in products)
-                {
                     hash *= prime + product.GetHashCode();
-                }
 
                 foreach (var quantity in quantities)
-                {
                     hash *= prime + quantity.GetHashCode();
-                }
+                
 
                 if (hash < 0) hash = -hash;
 
@@ -81,24 +80,14 @@
             if (this.GetType() != obj.GetType()) return false;
 
             Invoice that = (Invoice)obj;
-
-            if (id != that.id || nProducts != that.nProducts) 
-                return false;
-
-            if (id != that.id || nProducts != that.nProducts || !customer.Equals(that.customer))
-                return false; 
-
-            for (int i = 0; i < nProducts; i++)
-            {
-                if (!products[i].Equals(that.products[i]) || 
-                    quantities[i] != that.quantities[i])
-                    return false;    
-            }
-
-            return true;
+            
+            return Object.Equals(this.id, that.id) &&
+                Object.Equals(this.customer, that.customer) &&
+                Array.Equals(this.products, that.products) &&
+                Array.Equals(this.quantities, that.quantities);
         }
 
-        public override string ToString() => $"Invoice [id = {id}, customer = {customer}, products = {string.Join(", ", products)}, quantities = {string.Join(", ", quantities)}]";
+        public override string ToString() => "Invoice [id = " + id + ", customer = " + customer + ", total = " + GetTotal() + "]";
     }
 
     public class Customer
@@ -109,13 +98,13 @@
 
         public Customer(int id, string name, int discount)
         {
-            if (Int128.IsNegative(id))
+            if (!Int128.IsPositive(id))
                 throw new ArgumentException("ID must be a positive integer.", nameof(id));
 
             if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Name cannot be null or empty");
 
-            if (Int128.IsNegative(id) || discount > 100)
+            if (Int128.IsNegative(discount) || discount > 100)
                 throw new ArgumentException("Discount must be between 0 and 100");
 
             this.id = id;
@@ -128,12 +117,11 @@
         public int GetDiscount() => discount;
         public void SetDiscount(int discount)
         {
-            if (discount < 0 || discount > 100)
+            if (Int128.IsNegative(discount) || discount > 100)
                 throw new ArgumentException("Discount must be between 0 and 100");
             
             this.discount = discount;
         }
-
         public override int GetHashCode()
         {
             const int prime = 31;
@@ -162,7 +150,6 @@
         }
 
         public override string ToString() => "Customer [id = " + id + ", name = " + name + ", discount = " + discount + "]";
-
     }
 
     public class Product
@@ -173,7 +160,7 @@
 
         public Product(int id, string name, double price)
         {
-            if (Int128.IsNegative(id))
+            if (!Int128.IsPositive(id))
                 throw new ArgumentException("ID must be a positive integer.", nameof(id));
 
             if (string.IsNullOrWhiteSpace(name))
