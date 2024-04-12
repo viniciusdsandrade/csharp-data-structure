@@ -16,15 +16,12 @@
 
         public bool AddProduct(Product product, int amount)
         {
-            if (nProducts < 30) // Verifica se o número máximo de produtos não foi excedido
-            {
-                products.Add(product);
-                quantities.Add(amount);
-                nProducts++;
-                return true;
-            }
-
-            return false;
+            if (nProducts >= 30) return false; 
+            
+            products.Add(product);
+            quantities.Add(amount);
+            nProducts++;
+            return true;
         }
 
         public bool RemoveProduct(Product product)

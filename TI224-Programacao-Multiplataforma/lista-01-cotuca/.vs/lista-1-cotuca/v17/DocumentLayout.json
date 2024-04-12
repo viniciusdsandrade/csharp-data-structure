@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\shopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|solutionrelative:shopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|c:\\users\\vinic\\onedrive\\\u00E1rea de trabalho\\csharp-data-structure\\ti224-programacao-multiplataforma\\lista-01-cotuca\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|c:\\users\\vinic\\onedrive\\\u00E1rea de trabalho\\csharp-data-structure\\ti224-programacao-multiplataforma\\lista-01-cotuca\\shopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2083FA8-CA37-4162-9CCD-CACFDEF27E26}|lista-01-TI224-programacao-multiplataforma.csproj|solutionrelative:shopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee.cs",
-              "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Employee.cs",
-              "RelativeToolTip": "Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:54:32.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Library.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Library.cs",
-              "RelativeDocumentMoniker": "Library.cs",
-              "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Library.cs",
-              "RelativeToolTip": "Library.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:54:26.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Shopping.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Shopping.cs",
               "RelativeDocumentMoniker": "Shopping.cs",
               "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Shopping.cs",
               "RelativeToolTip": "Shopping.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAQwE4AAAAqAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDIAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T14:53:59.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\vinic\\OneDrive\\\u00C1rea de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\lista-01-cotuca\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAK8BAAAAAAAAAAArwIYBAAAYAAAA",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAwwJwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T14:47:21.271Z",
               "EditorCaption": ""

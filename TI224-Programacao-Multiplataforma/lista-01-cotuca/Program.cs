@@ -47,6 +47,7 @@ namespace Program
                 else
                     r = q;
             }
+
             return p;
         }
 
@@ -69,8 +70,10 @@ namespace Program
                     A[j + 1] = A[j];
                     j--;
                 }
+
                 A[j + 1] = chave;
             }
+
             return A;
         }
 
@@ -90,6 +93,7 @@ namespace Program
                     return i;
                 }
             }
+
             return -1;
         }
 
@@ -131,6 +135,7 @@ namespace Program
                 A[i] = A[j];
                 A[j] = temp;
             }
+
             return A;
         }
 
@@ -151,10 +156,10 @@ namespace Program
                 int complemento = k - num;
                 if (set.Contains(complemento))
                     pares.Add((num, complemento));
-                
+
                 set.Add(num);
             }
-           
+
             return pares.ToArray();
         }
 
@@ -162,17 +167,17 @@ namespace Program
         /*
             Exercício 7
             Escreva um programa em C# que remova os elementos duplicados de um arranjo
-            A de n cadeias de caracteres. 
+            A de n cadeias de caracteres.
         */
-        public static string RemoveDuplicados(List<char> str)
+        public static string[] RemoveDuplicados(string[] A)
         {
-            HashSet<char> set = [];
-            for (int i = 0; i < str.Count; i++)
-                set.Add(str[i]);
-            
-            return new string(set.ToArray());
-        }
 
+            HashSet<string> set = new HashSet<string>();
+            for (int i = 0; i < A.Length; i++)
+                set.Add(A[i]);
+            
+            return set.ToArray();
+        }
 
         /*
             Exercício 8
@@ -193,6 +198,7 @@ namespace Program
                     }
                 }
             }
+
             return A;
         }
 
@@ -228,19 +234,13 @@ namespace Program
             for (int i = 0; i < A.Length; i++)
             {
                 if (A[i] == candidate)
-                {
                     count++;
-                }
             }
 
             if (count > A.Length / 2)
-            {
                 return candidate;
-            }
             else
-            {
                 return -1;
-            }
         }
 
 
@@ -255,32 +255,54 @@ namespace Program
             while (inicio <= fim && k >= A[inicio] && k <= A[fim])
             {
                 int posicao = inicio + (int)((double)(fim - inicio) / (A[fim] - A[inicio]) * (k - A[inicio]));
-                if (A[posicao] == k)
-                {
-                    return posicao;
-                }
-                if (A[posicao] < k)
-                {
-                    inicio = posicao + 1;
-                }
-                else
-                {
-                    fim = posicao - 1;
-                }
+                if (A[posicao] == k) return posicao;
+
+                if (A[posicao] < k) inicio = posicao + 1;
+                else fim = posicao - 1;
             }
+
             return -1;
         }
+
+
+        public static void PrintarArray(string[] array)
+        {
+            Write("[");
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i == array.Length - 1)
+                    Write(array[i]);
+                else
+                    Write(array[i] + ", ");
+            }
+            Write("]");
+            WriteLine();
+        }
+
 
         static void Main(string[] args)
         {
             /*
+              Exercício 7
+              Escreva um programa em C# que remova os elementos duplicados de um arranjo
+              A de n cadeias de caracteres.
+            */
+
+            string[] s = ["bcd", "abd", "bcd", "fgh"];
+            WriteLine("Arranjo original: ");
+            PrintarArray(s);
+            var res = RemoveDuplicados(s);
+            WriteLine("Arranjo sem duplicados: ");
+            PrintarArray(res);
+
+            /*
                Exercício 1
                Qual o retorno deste programa para funcao([83, 41, 5, 1, 59, 97], 2)?
              */
-            int[] A = [83, 41, 5, 1, 59, 97];
-            ImprimirArray(A);
+            int[] a = [83, 41, 5, 1, 59, 97];
+            ImprimirArray(a);
             int i = 2;
-            int[] result = Funcao(A, i);
+            int[] result = Funcao(a, i);
             ImprimirArray(result);
             WriteLine();
 
@@ -301,9 +323,9 @@ namespace Program
               Contudo, este programa possui alguns erros de lógica. Encontre-os e corrija-os.
              */
             WriteLine("Exercício 3");
-            int[] B = [83, 41, 5, 1, 59, 97];
-            ImprimirArray(B);
-            int[] result2 = Ordena(B);
+            int[] b = [83, 41, 5, 1, 59, 97];
+            ImprimirArray(b);
+            var result2 = Ordena(b);
             ImprimirArray(result2);
             WriteLine();
 
@@ -314,9 +336,10 @@ namespace Program
               (a) Qual é o resultado da impressão da linha 30?
               (b) busca1 é “melhor” do que busca2? Justifique sua resposta.
              */
-            int[] tamanhos = [
-                100, 1_000, 10_000, 
-                100_000, 1_000_000, 
+            int[] tamanhos =
+            [
+                100, 1_000, 10_000,
+                100_000, 1_000_000,
                 10_000_000, 100_000_000
             ];
             Random random = new();
@@ -328,7 +351,7 @@ namespace Program
 
                 // Preencher o array com números de 0 até tamanhoArray - 1
                 for (int f = 0; f < tamanhoArray; f++)
-                    array[f] = f;      
+                    array[f] = f;
 
                 Stopwatch stopwatch = new();
 
@@ -348,6 +371,7 @@ namespace Program
                 WriteLine($"Busca2: Índice encontrado = {indice2}, Ticks = {stopwatch.Elapsed}");
                 WriteLine();
             }
+
             WriteLine();
 
 
@@ -374,20 +398,8 @@ namespace Program
             (int, int)[] pares = EncontrarDoisElementosSomaK(arr, k);
             WriteLine("Pares que somam " + k + ": ");
             foreach ((int, int) par in pares)
-            {
                 WriteLine(par);
-            }
-            WriteLine();
 
-
-            /*
-            Exercício 7
-            Escreva um programa em C# que remova os elementos duplicados de um arranjo
-            A de n cadeias de caracteres. 
-            */
-            List<char> list = [.. "geeksforgeeks"];
-            WriteLine("String original: " + new string(list.ToArray()));
-            WriteLine("String sem duplicados: " + RemoveDuplicados(list));
             WriteLine();
 
 
@@ -428,7 +440,8 @@ namespace Program
             WriteLine();
             int[] arrayInterpolacao = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
             int valorInterpolacao = 5;
-            WriteLine("Índice do valor " + valorInterpolacao + ": " + BuscaInterpolacao(arrayInterpolacao, valorInterpolacao));
+            WriteLine("Índice do valor " + valorInterpolacao + ": " +
+                      BuscaInterpolacao(arrayInterpolacao, valorInterpolacao));
             WriteLine();
 
 
@@ -448,7 +461,7 @@ namespace Program
              * Exercício 13
              */
             Author author = new("Vinícius", "vinicius_andrade2010@hotmail.com", 'm');
-            WriteLine(author); 
+            WriteLine(author);
 
             Book book = new("C# 9 and .NET 5", author, 100, 10);
             WriteLine(book);
@@ -524,6 +537,7 @@ namespace Program
                     Write(array[i] + ", ");
                 }
             }
+
             Write("]");
             WriteLine();
         }

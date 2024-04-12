@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lista-01-TI224-programacao-multiplataforma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43feefb2505cabfcd950b5c78a01c96f734489a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55fb62f52fe1d3ae510a4495373d5f678ea03921")]
 [assembly: System.Reflection.AssemblyProductAttribute("lista-01-TI224-programacao-multiplataforma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lista-01-TI224-programacao-multiplataforma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

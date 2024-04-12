@@ -55,7 +55,7 @@ namespace Programa
                 Console.WriteLine("5. Operações de terminal rodoviário");
                 Console.WriteLine("6. Sair");
                 Console.Write("Opção: ");
-                int opcao = int.Parse(Console.ReadLine());
+                var opcao = int.Parse(Console.ReadLine());
 
                 switch (opcao)
                 {
