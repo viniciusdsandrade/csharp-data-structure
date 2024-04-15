@@ -1,5 +1,7 @@
 ﻿using System.Text;
 
+using static System.Console;
+
 namespace Programa
 {
     class Program
@@ -47,43 +49,43 @@ namespace Programa
         {
             while (true)
             {
-                Console.WriteLine("Escolha uma opção:");
-                Console.WriteLine("1. Converter decimal para binário");
-                Console.WriteLine("2. Converter binário para decimal");
-                Console.WriteLine("3. Ordenar marcas de veículos de luxo");
-                Console.WriteLine("4. Preencher e exibir matriz 4 x 5");
-                Console.WriteLine("5. Operações de terminal rodoviário");
-                Console.WriteLine("6. Sair");
-                Console.Write("Opção: ");
-                var opcao = int.Parse(Console.ReadLine());
+                WriteLine("Escolha uma opção:");
+                WriteLine("1. Converter decimal para binário");
+                WriteLine("2. Converter binário para decimal");
+                WriteLine("3. Ordenar marcas de veículos de luxo");
+                WriteLine("4. Preencher e exibir matriz 4 x 5");
+                WriteLine("5. Operações de terminal rodoviário");
+                WriteLine("6. Sair");
+                Write("Opção: ");
+                var opcao = int.Parse(ReadLine());
 
                 switch (opcao)
                 {
                     case 1:
-                        Console.Write("Digite um número decimal: ");
-                        int numero = int.Parse(Console.ReadLine());
+                        Write("Digite um número decimal: ");
+                        int numero = int.Parse(ReadLine());
                         string binario = DecimalParaBinarioString(numero);
-                        Console.WriteLine($"Binário: {binario}");
+                        WriteLine($"Binário: {binario}");
                         break;
                     case 2:
-                        Console.Write("Digite um número binário: ");
-                        string binario2 = Console.ReadLine();
+                        Write("Digite um número binário: ");
+                        string binario2 = ReadLine();
                         int numero2 = BinarioParaDecimal(binario2);
-                        Console.WriteLine($"Decimal: {numero2}");
+                        WriteLine($"Decimal: {numero2}");
                         break;
                     case 3:
-                        string[] marcasVeiculos = { "Mercedes Benz", "Jaguar", "Rolls Royce", "BMW", "Aston Martin", "Lamborghini" };
-                        Console.WriteLine("Marcas de veículos de luxo em ordem original:");
+                        string[] marcasVeiculos = ["Mercedes Benz", "Jaguar", "Rolls Royce", "BMW", "Aston Martin", "Lamborghini"];
+                        WriteLine("Marcas de veículos de luxo em ordem original:");
                         ImprimirArray(marcasVeiculos);
 
                         Array.Sort(marcasVeiculos);
-                        Console.WriteLine("\nMarcas de veículos de luxo em ordem alfabética:");
+                        WriteLine("\nMarcas de veículos de luxo em ordem alfabética:");
                         ImprimirArray(marcasVeiculos);
                         break;
                     case 4:
                         int[,] matriz = new int[4, 5];
                         PreencherMatriz(matriz);
-                        Console.WriteLine("\nMatriz preenchida:");
+                        WriteLine("\nMatriz preenchida:");
                         ExibirMatriz(matriz);
                         break;
                     case 5:
@@ -92,7 +94,7 @@ namespace Programa
                     case 6:
                         return;
                     default:
-                        Console.WriteLine("Opção inválida. Tente novamente.");
+                        WriteLine("Opção inválida. Tente novamente.");
                         break;
                 }
             }
@@ -303,16 +305,6 @@ namespace Programa
             return -1;
         }
 
-        public int FirstIndexOf(X item)
-        {
-            for (int i = 0; i < tamanho; i++)
-            {
-                if (elemento[i].Equals(item))
-                    return i;
-            }
-
-            return -1;
-        }
 
         public bool IsEmpty() => tamanho == 0;
 

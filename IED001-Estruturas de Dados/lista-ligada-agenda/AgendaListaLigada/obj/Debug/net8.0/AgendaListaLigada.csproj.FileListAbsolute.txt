@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\bin\Debug\net8.0\AgendaListaLigada.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\bin\Debug\net8.0\AgendaListaLigada.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\bin\Debug\net8.0\AgendaListaLigada.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\bin\Debug\net8.0\AgendaListaLigada.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\bin\Debug\net8.0\AgendaListaLigada.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\refint\AgendaListaLigada.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\AgendaListaLigada.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\IED001-Estruturas de Dados\lista-ligada-agenda\AgendaListaLigada\obj\Debug\net8.0\ref\AgendaListaLigada.dll

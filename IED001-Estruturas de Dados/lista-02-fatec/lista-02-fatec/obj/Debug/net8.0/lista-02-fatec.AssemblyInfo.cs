@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lista-02-fatec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55fb62f52fe1d3ae510a4495373d5f678ea03921")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+964a373d15aa7afe67b2241cbfe42c5ffd1b45c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("lista-02-fatec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lista-02-fatec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
