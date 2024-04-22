@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\refint\TucaBank.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\ref\TucaBank.dll

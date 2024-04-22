@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("lista-01-TI224-programacao-multiplataforma")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TucaBank")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0147481e26c0b896f2b23278f156ddbd308abd7c")]
-[assembly: System.Reflection.AssemblyProductAttribute("lista-01-TI224-programacao-multiplataforma")]
-[assembly: System.Reflection.AssemblyTitleAttribute("lista-01-TI224-programacao-multiplataforma")]
+[assembly: System.Reflection.AssemblyProductAttribute("TucaBank")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TucaBank")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
