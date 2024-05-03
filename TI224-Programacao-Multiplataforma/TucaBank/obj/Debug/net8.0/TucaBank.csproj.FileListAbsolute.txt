@@ -1,15 +1,29 @@
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.exe
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.deps.json
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.runtimeconfig.json
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.dll
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\TucaBank.pdb
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.AssemblyInfoInputs.cache
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.AssemblyInfo.cs
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.csproj.CoreCompileInputs.cache
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.sourcelink.json
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.dll
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\refint\TucaBank.dll
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.pdb
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\TucaBank.genruntimeconfig.cache
-C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\ref\TucaBank.dll
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/tucabank.GeneratedMSBuildEditorConfig.editorconfig
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/tucabank.AssemblyInfoInputs.cache
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/tucabank.AssemblyInfo.cs
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/tucabank.csproj.CoreCompileInputs.cache
+/Users/glhrmacedo/Teaching/tucabank/bin/Debug/net8.0/tucabank
+/Users/glhrmacedo/Teaching/tucabank/bin/Debug/net8.0/tucabank.deps.json
+/Users/glhrmacedo/Teaching/tucabank/bin/Debug/net8.0/tucabank.runtimeconfig.json
+/Users/glhrmacedo/Teaching/tucabank/bin/Debug/net8.0/tucabank.dll
+/Users/glhrmacedo/Teaching/tucabank/bin/Debug/net8.0/tucabank.pdb
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/tucabank.dll
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/refint/tucabank.dll
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/tucabank.pdb
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/tucabank.genruntimeconfig.cache
+/Users/glhrmacedo/Teaching/tucabank/obj/Debug/net8.0/ref/tucabank.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\tucabank.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\tucabank.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\tucabank.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\tucabank.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\bin\Debug\net8.0\tucabank.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.sourcelink.json
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\refint\tucabank.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\tucabank.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\csharp-data-structure\TI224-Programacao-Multiplataforma\TucaBank\obj\Debug\net8.0\ref\tucabank.dll

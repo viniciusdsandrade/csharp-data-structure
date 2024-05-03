@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\TucaBank\\TucaBank.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\TucaBank\\tucabank.csproj",
       "projectName": "TucaBank",
-      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\TucaBank\\TucaBank.csproj",
+      "projectPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\TucaBank\\tucabank.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vinic\\OneDrive\\Área de Trabalho\\csharp-data-structure\\TI224-Programacao-Multiplataforma\\TucaBank\\obj\\",
       "projectStyle": "PackageReference",

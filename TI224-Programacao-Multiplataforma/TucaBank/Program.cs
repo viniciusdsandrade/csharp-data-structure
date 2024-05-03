@@ -1,30 +1,9 @@
-﻿using static System.Console;
-using static System.DateTime;
+﻿using Classes;
 
-namespace Program
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            // Teste de depósito
-            var account = new BankAccount.BankAccount("12345", "João Silva", 1000);
-            account.MakeDeposit(500, Now, "Depósito de salário");
-            if (account.Balance != 1500) WriteLine("Teste de depósito falhou!");
-            else WriteLine("Teste de depósito passou!");
+var account = new Account("Guilherme Macedo", 13000.00);
+account.MakeDeposit(975, DateTime.Now, "Rent payment");
+account.MakeWithdrawal(3000, DateTime.Now, "Emergency funds for repairs");
+account.MakeDeposit(300, DateTime.Now, "Friend paid me back");
+account.MakeWithdrawal(1500, DateTime.Now, "Take out monthly advance");
 
-            // Teste de saque
-            account.MakeWithdraw(200, Now, "Saque ATM");
-            if (account.Balance != 1300) WriteLine("Teste de saque falhou!");
-
-            else WriteLine("Teste de saque passou!");
-
-            // Teste do histórico da conta
-            string expectedHistory = "Depósito de salário: +500\nSaque ATM: -200\n";
-            if (account.GetAccountHistory() != expectedHistory) WriteLine("Teste do histórico da conta falhou!");
-            else WriteLine("Teste do histórico da conta passou!");
-
-            WriteLine(account.GetAccountHistory());
-        }
-    }
-}
+Console.WriteLine(account.GetAccountHistory());
