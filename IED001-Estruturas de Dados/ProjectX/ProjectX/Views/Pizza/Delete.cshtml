@@ -1,0 +1,7 @@
+﻿@model ProjectX.Models.Pizza
+
+<p>Tem certeza de que deseja excluir a pizza "@Model.Nome"? </p>
+<form action="/pizza/delete/@Model.IdPizza" method="post">
+    <button type="submit" class="btn btn-danger">Excluir</button>
+    <a href="/pizza/index" class="btn btn-secondary">Cancelar</a>
+</form>

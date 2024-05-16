@@ -1,0 +1,12 @@
+create database BDPizza
+use BDPizza
+go
+create table Pizza
+(
+ IdPizza int primary key identity,
+ Nome varchar(60) not null,
+ Ingredientes varchar(100) not null,
+ Valor int not null,
+)
+insert into Pizza values ('Portuguesa', 'Queijo, ovo, calabresa, presunto', 50)
+insert into Pizza values ('4 Queijos', 'Muçarela, parmesão, gorgonzola, provolone', 60)

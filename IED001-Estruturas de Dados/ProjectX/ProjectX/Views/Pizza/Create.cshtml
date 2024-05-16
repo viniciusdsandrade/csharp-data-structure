@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<form action="/pizza/create" method="post">
+    <label for="Nome">Nome:</label>
+    <input type="text" name="Nome" id="Nome" /><br />
+
+    <label for="Ingredientes">Ingredientes:</label>
+    <input type="text" name="Ingredientes" id="Ingredientes" /><br />
+
+    <label for="Valor">Valor:</label>
+    <input type="number" name="Valor" id="Valor" /><br />
+
+    <button>Salvar</button>
+</form>
+</body>
+</html>
