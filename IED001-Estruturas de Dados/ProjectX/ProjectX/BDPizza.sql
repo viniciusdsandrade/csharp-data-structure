@@ -10,6 +10,4 @@ CREATE TABLE [dbo].[Pizza]
     CONSTRAINT [PK_Pizza] PRIMARY KEY CLUSTERED ([IdPizza] ASC)
 );
 
-SELECT *
-FROM Pizza;
-
+SELECT * FROM Pizza;
