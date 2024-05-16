@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<ProjectX.Models.Pizza>
 @{
-Layout = "_Layout";
+    Layout = "_Layout";
 }
 
 <div class="container">
@@ -18,18 +18,18 @@ Layout = "_Layout";
         <tbody>
         @foreach (var pizza in Model)
         {
-        <tr>
-            <td>@pizza.IdPizza</td>
-            <td>@pizza.Nome</td>
-            <td>@pizza.Ingredientes</td>
-            <td>R$ @pizza.Valor.ToString("N2")</td>
-            <td>
-                <div class="btn-group" role="group">
-                    <a href="/pizza/edit/@pizza.IdPizza" class="btn btn-primary">Alterar</a>
-                    <a href="/pizza/delete/@pizza.IdPizza" class="btn btn-danger">Excluir</a>
-                </div>
-            </td>
-        </tr>
+            <tr>
+                <td>@pizza.GetIdPizza()</td>
+                <td>@pizza.GetNome()</td>
+                <td>@pizza.GetIngredientes()</td>
+                <td>R$ @pizza.GetValor().ToString("N2")</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a href="/pizza/edit/@pizza.GetIdPizza()" class="btn btn-primary">Alterar</a>
+                        <a href="/pizza/delete/@pizza.GetIdPizza()" class="btn btn-danger">Excluir</a>
+                    </div>
+                </td>
+            </tr>
         }
         </tbody>
     </table>

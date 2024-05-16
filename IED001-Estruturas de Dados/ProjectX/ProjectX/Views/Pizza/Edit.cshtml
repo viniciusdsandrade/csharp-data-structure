@@ -35,14 +35,14 @@
 </style>
 
 <form action="@Url.Action("Edit", "Pizza")" method="post">
-    <input type="hidden" name="IdPizza" value="@Model.IdPizza" /> <label for="Nome">Nome:</label>
-    <input type="text" name="Nome" id="Nome" value="@Model.Nome" /><br />
+    <input type="hidden" name="IdPizza" value="@Model.GetIdPizza()"/> <label for="Nome">Nome:</label>
+    <input type="text" name="Nome" id="Nome" value="@Model.GetNome()"/><br/>
 
     <label for="Ingredientes">Ingredientes:</label>
-    <input type="text" name="Ingredientes" id="Ingredientes" value="@Model.Ingredientes" /><br />
+    <input type="text" name="Ingredientes" id="Ingredientes" value="@Model.GetIngredientes()"/><br/>
 
     <label for="Valor">Valor:</label>
-    <input type="number" name="Valor" id="Valor" value="@Model.Valor" /><br />
+    <input type="number" name="Valor" id="Valor" value="@Model.GetValor()"/><br/>
 
     <button type="submit">Salvar</button>
 </form>

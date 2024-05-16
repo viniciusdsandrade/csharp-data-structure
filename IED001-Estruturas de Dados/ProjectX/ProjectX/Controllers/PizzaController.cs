@@ -8,11 +8,9 @@
             // GET: Pizza
             public ActionResult Index()
             {
-                using (PizzaModel model = new PizzaModel())
-                {
-                    List<Pizza> lista = model.Read();
-                    return View(lista);
-                }
+                using var model = new PizzaModel();
+                List<Pizza> lista = model.Read();
+                return View(lista);
             }
 
             // GET: Pizza/Create
@@ -25,67 +23,54 @@
             [HttpPost]
             public ActionResult Create(IFormCollection form)
             {
-                Pizza pizza = new Pizza();
-                pizza.Nome = form["Nome"];
-                pizza.Ingredientes = form["Ingredientes"];
-                pizza.Valor = int.Parse(form["Valor"]);
+                var pizza = new Pizza(
+                    0, // IdPizza será gerado pelo banco, iniciamos com 0
+                    form["Nome"]!,
+                    form["Ingredientes"]!,
+                    int.Parse(form["Valor"]!)
+                );
 
-                using (PizzaModel model = new PizzaModel())
-                {
-                    model.Create(pizza);
-                    return RedirectToAction("Index");
-                }
+                using var model = new PizzaModel();
+                model.Create(pizza);
+                return RedirectToAction("Index");
             }
 
             // GET: Pizza/Edit/5
             public ActionResult Edit(int id)
             {
-                using (PizzaModel model = new PizzaModel())
-                {
-                    Pizza pizza = model.Read().FirstOrDefault(p => p.IdPizza == id);
-                    if (pizza == null)
-                    {
-                        return NotFound();
-                    }
-                    return View(pizza);
-                }
+                using var model = new PizzaModel();
+                var pizza = model.Read().FirstOrDefault(p => p.GetIdPizza() == id);
+                if (pizza == null) return NotFound();
+                
+                return View(pizza);
             }
 
-            // POST: Pizza/Edit
             // POST: Pizza/Edit
             [HttpPost]
             public ActionResult Edit(Pizza pizza) // Recebe o objeto Pizza completo
             {
-                using (PizzaModel model = new PizzaModel())
-                {
-                    model.Update(pizza);
-                    return RedirectToAction("Index");
-                }
+                using var model = new PizzaModel();
+                model.Update(pizza);
+                return RedirectToAction("Index");
             }
             
             // GET: Pizza/Delete/5
             public ActionResult Delete(int id)
             {
-                using (PizzaModel model = new PizzaModel())
-                {
-                    Pizza pizza = model.Read().FirstOrDefault(p => p.IdPizza == id);
-                    if (pizza == null)
-                    {
-                        return NotFound();
-                    }
-                    return View(pizza);
-                }
+                using var model = new PizzaModel();
+                var pizza = model.Read().FirstOrDefault(p => p.GetIdPizza() == id);
+                if (pizza == null) return NotFound();
+                
+                return View(pizza);
             }
 
             // POST: Pizza/Delete/5
             [HttpPost]
             public ActionResult Delete(int id, IFormCollection collection)
             {
-                using (PizzaModel model = new PizzaModel())
-                {
-                    model.Delete(id);
-                    return RedirectToAction("Index");
-                }
+                using var model = new PizzaModel();
+                model.Delete(id);
+                return RedirectToAction("Index");
             }
         }
     }

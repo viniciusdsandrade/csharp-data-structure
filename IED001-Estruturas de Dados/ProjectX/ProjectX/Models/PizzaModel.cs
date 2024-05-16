@@ -1,57 +1,54 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
 namespace ProjectX.Models
 {
     public class PizzaModel : IDisposable
     {
-        private SqlConnection connection;
+        private readonly SqlConnection _connection;
 
         public PizzaModel()
         {
-            string strConn = "Data Source=ANDRADEDELL;Initial Catalog=BDPizza;Integrated Security=True;";
-            connection = new SqlConnection(strConn);
-            connection.Open();
+            const string strConn = "Data Source=ANDRADEDELL;Initial Catalog=BDPizza;Integrated Security=True;";
+            _connection = new SqlConnection(strConn);
+            _connection.Open();
         }
 
         public void Dispose()
         {
-            connection.Close();
+            _connection.Close();
         }
 
         public void Create(Pizza pizza)
         {
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = connection;
+            var cmd = new SqlCommand();
+            cmd.Connection = _connection;
             cmd.CommandText = @"INSERT INTO Pizza (Nome, Ingredientes, Valor) VALUES (@nome, @ingredientes, @valor)";
 
-            cmd.Parameters.AddWithValue("@nome", pizza.Nome);
-            cmd.Parameters.AddWithValue("@ingredientes", pizza.Ingredientes);
-            cmd.Parameters.AddWithValue("@valor", pizza.Valor);
+            cmd.Parameters.AddWithValue("@nome", pizza.GetNome());
+            cmd.Parameters.AddWithValue("@ingredientes", pizza.GetIngredientes());
+            cmd.Parameters.AddWithValue("@valor", pizza.GetValor());
 
             cmd.ExecuteNonQuery();
         }
 
         public void Update(Pizza pizza)
         {
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = connection;
+            var cmd = new SqlCommand();
+            cmd.Connection = _connection;
             cmd.CommandText = @"UPDATE Pizza SET Nome = @nome, Ingredientes = @ingredientes, Valor = @valor WHERE IdPizza = @id";
 
-            cmd.Parameters.AddWithValue("@nome", pizza.Nome);
-            cmd.Parameters.AddWithValue("@ingredientes", pizza.Ingredientes);
-            cmd.Parameters.AddWithValue("@valor", pizza.Valor);
-            cmd.Parameters.AddWithValue("@id", pizza.IdPizza);
+            cmd.Parameters.AddWithValue("@nome", pizza.GetNome());
+            cmd.Parameters.AddWithValue("@ingredientes", pizza.GetIngredientes());
+            cmd.Parameters.AddWithValue("@valor", pizza.GetValor());
+            cmd.Parameters.AddWithValue("@id", pizza.GetIdPizza());
 
             cmd.ExecuteNonQuery();
         }
 
         public void Delete(int id)
         {
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = connection;
+            var cmd = new SqlCommand();
+            cmd.Connection = _connection;
             cmd.CommandText = @"DELETE FROM Pizza WHERE IdPizza = @id";
 
             cmd.Parameters.AddWithValue("@id", id);
@@ -63,17 +60,18 @@ namespace ProjectX.Models
         {
             List<Pizza> lista = new List<Pizza>();
 
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = connection;
+            var cmd = new SqlCommand();
+            cmd.Connection = _connection;
             cmd.CommandText = @"SELECT * FROM Pizza";
-            SqlDataReader reader = cmd.ExecuteReader();
+            var reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                Pizza pizza = new Pizza();
-                pizza.IdPizza = (int)reader["IdPizza"];
-                pizza.Nome = (string)reader["Nome"];
-                pizza.Ingredientes = (string)reader["Ingredientes"];
-                pizza.Valor = (int)reader["Valor"];
+                var pizza = new Pizza(
+                    (int)reader["IdPizza"],
+                    (string)reader["Nome"],
+                    (string)reader["Ingredientes"],
+                    (int)reader["Valor"]
+                );
 
                 lista.Add(pizza);
             }
