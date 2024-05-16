@@ -35,7 +35,8 @@ namespace ProjectX.Models
         {
             var cmd = new SqlCommand();
             cmd.Connection = _connection;
-            cmd.CommandText = @"UPDATE Pizza SET Nome = @nome, Ingredientes = @ingredientes, Valor = @valor WHERE IdPizza = @id";
+            cmd.CommandText =
+                @"UPDATE Pizza SET Nome = @nome, Ingredientes = @ingredientes, Valor = @valor WHERE IdPizza = @id";
 
             cmd.Parameters.AddWithValue("@nome", pizza.GetNome());
             cmd.Parameters.AddWithValue("@ingredientes", pizza.GetIngredientes());
@@ -58,7 +59,7 @@ namespace ProjectX.Models
 
         public List<Pizza> Read()
         {
-            List<Pizza> lista = new List<Pizza>();
+            List<Pizza> lista = [];
 
             var cmd = new SqlCommand();
             cmd.Connection = _connection;

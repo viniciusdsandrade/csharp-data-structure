@@ -29,13 +29,13 @@
             if (this == obj) return true;
             if (obj == null) return false;
             if (GetType() != obj.GetType()) return false;
-            
+
             var pizza = (Pizza)obj;
-            
-            return IdPizza == pizza.IdPizza &&
-                   Nome == pizza.Nome &&
-                   Ingredientes == pizza.Ingredientes &&
-                   Valor == pizza.Valor;
+
+            return IdPizza == pizza.GetIdPizza() &&
+                   Nome == pizza.GetNome() &&
+                   Ingredientes == pizza.GetIngredientes() &&
+                   Valor == pizza.GetValor();
         }
 
         public override int GetHashCode()
@@ -43,10 +43,10 @@
             const int prime = 31;
             var hash = 1;
 
-            hash *= prime + IdPizza;
-            hash *= prime + (Nome == null ? 0 : Nome.GetHashCode());
-            hash *= prime + (Ingredientes == null ? 0 : Ingredientes.GetHashCode());
-            hash *= prime + Valor;
+            hash *= prime + GetIdPizza();
+            hash *= prime + (GetNome() == null ? 0 : GetNome()!.GetHashCode());
+            hash *= prime + (GetIngredientes() == null ? 0 : GetIngredientes()!.GetHashCode());
+            hash *= prime + GetValor();
 
             if (hash < 0) hash = -hash;
 

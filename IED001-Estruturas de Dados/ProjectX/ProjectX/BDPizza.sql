@@ -7,8 +7,7 @@ CREATE TABLE [dbo].[Pizza]
     [Nome]         VARCHAR(100)       NOT NULL,
     [Ingredientes] VARCHAR(255)       NOT NULL,
     [Valor]        INT                NOT NULL,
-    CONSTRAINT [PK_Pizza] PRIMARY KEY CLUSTERED
-        ([IdPizza] ASC)
+    CONSTRAINT [PK_Pizza] PRIMARY KEY CLUSTERED ([IdPizza] ASC)
 );
 
 SELECT *
