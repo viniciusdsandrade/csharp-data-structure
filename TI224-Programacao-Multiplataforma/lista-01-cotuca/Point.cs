@@ -1,6 +1,6 @@
 ﻿using static System.Math;
 
-namespace Point
+namespace lista_1_cotuca
 {
     public class MovablePoint
     {
@@ -35,7 +35,7 @@ namespace Point
             if (obj == null) return false;
             if (this.GetType() != obj.GetType()) return false;
 
-            MovablePoint that = (MovablePoint)obj;
+            var that = (MovablePoint)obj;
 
             return Equals(this.x, that.x) &&
                 Equals(this.y, that.y) &&
@@ -45,7 +45,7 @@ namespace Point
         public override int GetHashCode()
         {
             const int prime = 31;
-            int hash = 1;
+            var hash = 1;
 
             hash *= prime + x;
             hash *= prime + y;
@@ -103,7 +103,7 @@ namespace Point
             if (obj == null) return false;
             if (this.GetType() != obj.GetType()) return false;
 
-            MovableRectangle that = (MovableRectangle)obj;
+            var that = (MovableRectangle)obj;
 
             return Equals(this.topLeft, that.topLeft) &&
                 Equals(this.bottomRight, that.bottomRight);
@@ -112,7 +112,7 @@ namespace Point
         public override int GetHashCode()
         {
             const int prime = 31;
-            int hash = 1;
+            var hash = 1;
 
             hash *= prime + topLeft.GetHashCode();
             hash *= prime + bottomRight.GetHashCode();

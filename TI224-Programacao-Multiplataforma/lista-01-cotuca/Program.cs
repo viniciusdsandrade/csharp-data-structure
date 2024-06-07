@@ -1,23 +1,20 @@
-﻿using Company;
-using Library;
-using Point;
-using Shopping;
-// ReSharper disable once RedundantUsingDirective
-using System;
-using System.Diagnostics;
+﻿// ReSharper disable once RedundantUsingDirective
+
 using static System.Console;
+using System.Diagnostics;
+using Shopping;
 using static System.Math;
 
 
-namespace Program
+namespace lista_1_cotuca
 {
-    static class Program
+    internal static class Program
     {
         /*
          * Exercício 1
          * Qual o retorno deste programa para funcao([83, 41, 5, 1, 59, 97], 2)?
          */
-        public static int[] Funcao(int[] A, int i)
+        private static int[] Funcao(int[] A, int i)
         {
             A[1] = 17;
             A[i / 2] = 9;
@@ -37,12 +34,12 @@ namespace Program
            Exercício 2
            Qual o retorno deste programa para funcao(81)?
         */
-        public static int Funcao2(int n)
+        private static int Funcao2(int n)
         {
             int p = 1, r = n;
             while (p + 1 < r)
             {
-                int q = (p + r) / 2;
+                var q = (p + r) / 2;
                 if (Pow(q, 2) <= n)
                     p = q;
                 else
@@ -59,7 +56,7 @@ namespace Program
           de modo que seus elementos, ao final, estejam ordenados de forma decrescente.
           Contudo, este programa possui alguns erros de lógica. Encontre-os e corrija-os.
          */
-        public static int[] Ordena(int[] A)
+        private static int[] Ordena(int[] A)
         {
             int i, j, chave;
             for (i = 1; i < A.Length; i++)
@@ -82,40 +79,26 @@ namespace Program
         /*
          Exercício 4
          Observe o programa abaixo e responda:
-          ( a ) Qual é o resultado da impressão da linha 30?
-          ( b ) busca1 é “melhor” do que busca2? Justifique sua resposta.
+          (a) Qual é o resultado da impressão da linha 30?
+          (b) busca1 é “melhor” do que busca2? Justifique sua resposta.
          */
-        public static int Busca1(int[] A, int k)
+        private static int Busca1(int[] A, int k)
         {
-            for (int i = 0; i < A.Length; i++)
-            {
-                if (A[i] == k)
-                {
-                    return i;
-                }
-            }
+            for (var i = 0; i < A.Length; i++)
+                if (A[i] == k) return i;
 
             return -1;
         }
 
-        public static int Busca2(int[] A, int k)
+        private static int Busca2(int[] A, int k)
         {
             int inicio = 0, fim = A.Length - 1;
             while (inicio <= fim)
             {
-                int meio = (inicio + fim) / 2;
-                if (A[meio] == k)
-                {
-                    return meio;
-                }
-                else if (A[meio] < k)
-                {
-                    inicio = meio + 1;
-                }
-                else
-                {
-                    fim = meio - 1;
-                }
+                var meio = (inicio + fim) / 2;
+                if (A[meio] == k) return meio;
+                if (A[meio] < k) inicio = meio + 1;
+                else fim = meio - 1;
             }
 
             return -1;
@@ -126,12 +109,12 @@ namespace Program
             Exercício 5
             Escreva um programa em C# que embaralhe um arranjo A de n inteiros.
         */
-        public static int[] Shuffle(int[] A)
+        private static int[] Shuffle(int[] A)
         {
             Random random = new();
-            for (int i = 0; i < A.Length; i++)
+            for (var i = 0; i < A.Length; i++)
             {
-                int j = random.Next(i, A.Length);
+                var j = random.Next(i, A.Length);
                 int temp = A[i];
                 A[i] = A[j];
                 A[j] = temp;
@@ -146,18 +129,16 @@ namespace Program
             Escreva um programa em C# que encontre dois elementos de um arranjo A de n
             inteiros, distintos entre si, que somados seja igual a um determinado inteiro k.
         */
-        public static (int, int)[] EncontrarDoisElementosSomaK(int[] arr, int k)
+        private static (int, int)[] EncontrarDoisElementosSomaK(int[] arr, int k)
         {
-            List<(int, int)> pares = new List<(int, int)>();
-            HashSet<int> set = new HashSet<int>();
+            List<(int, int)> pares = [];
+            HashSet<int> set = [];
 
-            for (int i = 0; i < arr.Length; i++)
+            foreach (var num in arr)
             {
-                int num = arr[i];
-                int complemento = k - num;
+                var complemento = k - num;
                 if (set.Contains(complemento))
                     pares.Add((num, complemento));
-
                 set.Add(num);
             }
 
@@ -170,13 +151,11 @@ namespace Program
             Escreva um programa em C# que remova os elementos duplicados de um arranjo
             A de n cadeias de caracteres.
         */
-        public static string[] RemoveDuplicados(string[] A)
+        private static string[] RemoveDuplicados(string[] A)
         {
-
-            HashSet<string> set = new HashSet<string>();
-            for (int i = 0; i < A.Length; i++)
-                set.Add(A[i]);
-            
+            HashSet<string> set = [];
+            foreach (var t in A)
+                set.Add(t);
             return set.ToArray();
         }
 
@@ -185,11 +164,11 @@ namespace Program
             Escreva um programa em C# que organize um arranjo A de n inteiros de modo
             que todos os inteiros negativos apareçam antes de todos os inteiros positivos.
         */
-        public static int[] OrdemCrescente(int[] A)
+        private static int[] OrdemCrescente(int[] A)
         {
-            for (int i = 0; i < A.Length; i++)
+            for (var i = 0; i < A.Length; i++)
             {
-                for (int j = i + 1; j < A.Length; j++)
+                for (var j = i + 1; j < A.Length; j++)
                 {
                     if (A[i] > A[j])
                     {
@@ -210,17 +189,17 @@ namespace Program
             A de n inteiros. Um elemento majoritário é um elemento que aparece mais de
             n/2 vezes.
         */
-        public static int ElementoMajoritario(int[] A)
+        private static int ElementoMajoritario(int[] A)
         {
             int count = 0, candidate = 0;
-            for (int i = 0; i < A.Length; i++)
+            foreach (var t in A)
             {
                 if (count == 0)
                 {
-                    candidate = A[i];
+                    candidate = t;
                     count = 1;
                 }
-                else if (A[i] == candidate)
+                else if (t == candidate)
                 {
                     count++;
                 }
@@ -231,17 +210,10 @@ namespace Program
             }
 
             // Verifica se o candidato é realmente o elemento majoritário
-            count = 0;
-            for (int i = 0; i < A.Length; i++)
-            {
-                if (A[i] == candidate)
-                    count++;
-            }
+            count = A.Count(t => t == candidate);
 
-            if (count > A.Length / 2)
-                return candidate;
-            else
-                return -1;
+            if (count > A.Length / 2) return candidate;
+            else return -1;
         }
 
 
@@ -250,12 +222,12 @@ namespace Program
             Escreva um programa em C# que encontre um elemento específico em um arranjo
             A de n inteiros usando a busca por interpolação.
          */
-        public static int BuscaInterpolacao(int[] A, int k)
+        private static int BuscaInterpolacao(int[] A, int k)
         {
             int inicio = 0, fim = A.Length - 1;
             while (inicio <= fim && k >= A[inicio] && k <= A[fim])
             {
-                int posicao = inicio + (int)((double)(fim - inicio) / (A[fim] - A[inicio]) * (k - A[inicio]));
+                var posicao = inicio + (int)((double)(fim - inicio) / (A[fim] - A[inicio]) * (k - A[inicio]));
                 if (A[posicao] == k) return posicao;
 
                 if (A[posicao] < k) inicio = posicao + 1;
@@ -266,22 +238,21 @@ namespace Program
         }
 
 
-        public static void PrintarArray(string[] array)
+        private static void PrintarArray(string[] array)
         {
             Write("[");
-            for (int i = 0; i < array.Length; i++)
+            for (var i = 0; i < array.Length; i++)
             {
-                if (i == array.Length - 1)
-                    Write(array[i]);
-                else
-                    Write(array[i] + ", ");
+                if (i == array.Length - 1) Write(array[i]);
+                else Write(array[i] + ", ");
             }
+
             Write("]");
             WriteLine();
         }
 
 
-        static void Main(string[] args)
+        private static void Main()
         {
             /*
               Exercício 7
@@ -302,8 +273,8 @@ namespace Program
              */
             int[] a = [83, 41, 5, 1, 59, 97];
             ImprimirArray(a);
-            int i = 2;
-            int[] result = Funcao(a, i);
+            const int i = 2;
+            var result = Funcao(a, i);
             ImprimirArray(result);
             WriteLine();
 
@@ -312,7 +283,7 @@ namespace Program
                Exercício 2
                Qual o retorno deste programa para funcao(81)?
             */
-            int n = 81;
+            const int n = 81;
             WriteLine("O resultado da função para " + n + " é: " + Funcao2(n));
             WriteLine();
 
@@ -396,9 +367,9 @@ namespace Program
             int k = 5;
             WriteLine("Arranjo: ");
             ImprimirArray(arr);
-            (int, int)[] pares = EncontrarDoisElementosSomaK(arr, k);
+            var pares = EncontrarDoisElementosSomaK(arr, k);
             WriteLine("Pares que somam " + k + ": ");
-            foreach ((int, int) par in pares)
+            foreach (var par in pares)
                 WriteLine(par);
 
             WriteLine();

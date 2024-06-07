@@ -1,4 +1,4 @@
-﻿namespace Company
+﻿namespace lista_1_cotuca
 {
     public class Employee
     {
